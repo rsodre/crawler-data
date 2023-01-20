@@ -1,5 +1,5 @@
-import { ChainId } from '../types';
-import data from './data.json';
+import { ChainId, Coords, StaticChamberData } from '../types'
+import data from './data.json'
 
 /**
  * Get the address of the contract of cached data
@@ -13,10 +13,12 @@ export const getTokenCount = (chainId: ChainId): number => {
 	return Object.keys(data[chainId]?.tokenIdToCoord ?? {}).length;
 }
 
-export const getTokenIdToCoord = (chainId: ChainId, tokenId: number): object => {
-	return data[chainId]?.tokenIdToCoord?.[tokenId] ?? null;
+export const getTokenIdToCoords = (chainId: ChainId, tokenId: number): Coords => {
+	const _data: Record<string, Coords> = data[chainId]?.tokenIdToCoord;
+	return _data?.[tokenId] ?? null;
 }
 
-export const getStaticChamberData = (chainId: ChainId, coord: string): object => {
-	return data[chainId]?.staticChamberData?.[coord] ?? null;
+export const getStaticChamberData = (chainId: ChainId, coord: string): StaticChamberData => {
+	const _data: Record<string, StaticChamberData> = data[chainId]?.staticChamberData;
+	return _data?.[coord] ?? null;
 }

@@ -16,20 +16,34 @@ export interface ContractAddresses {
 	cardsMinter: string;
 }
 
-export interface SomeData {
-	data1: number;
-	data2: string;
+export interface Compass {
+	north?: number;
+	east?: number;
+	west?: number;
+	south?: number;
 }
 
+export interface Coords {
+	compass: Compass;
+	coord: string;
+}
 
+export interface StaticChamberData {
+	compass: Compass;
+	coord: string;
+	seed: string;
+	tokenId: number;
+	yonder: number;
+	name: string;
+	chapter: number;
+	terrain: number;
+	entryDir: number;
+	gemPos: number;
+	gemType: number;
+	coins: number;
+	worth: number;
+	doors: number[];
+	locks: boolean[];
+	locksCount: number;
+}
 
-// interface CatInfo {
-// 	age: number;
-// 	breed: string;
-// }
-// type CatName = 'miffy' | 'boris' | 'mordred';
-// const cats: Record<CatName, CatInfo> = {
-// 	miffy: { age: 10, breed: 'Persian' },
-// 	boris: { age: 5, breed: 'Maine Coon' },
-// 	mordred: { age: 16, breed: 'British Shorthair' },
-// };
