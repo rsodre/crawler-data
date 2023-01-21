@@ -1666,6 +1666,258 @@
 				"south": 8
 			},
 			"coord": "2722258935367507707706996859454145691656"
+		},
+		"239": {
+			"compass": {
+				"east": 4,
+				"south": 9
+			},
+			"coord": "1361129467683753853853498429727072845833"
+		},
+		"240": {
+			"compass": {
+				"north": 1,
+				"east": 10
+			},
+			"coord": "6277101735386680767238613092417051050736101518781716627456"
+		},
+		"241": {
+			"compass": {
+				"east": 1,
+				"south": 8
+			},
+			"coord": "340282366920938463463374607431768211464"
+		},
+		"242": {
+			"compass": {
+				"west": 7,
+				"south": 1
+			},
+			"coord": "129127208515966861313"
+		},
+		"243": {
+			"compass": {
+				"north": 1,
+				"west": 7
+			},
+			"coord": "6277101735386680763835789423207666416231482652980001374208"
+		},
+		"244": {
+			"compass": {
+				"east": 1,
+				"south": 9
+			},
+			"coord": "340282366920938463463374607431768211465"
+		},
+		"245": {
+			"compass": {
+				"west": 3,
+				"south": 8
+			},
+			"coord": "55340232221128654856"
+		},
+		"246": {
+			"compass": {
+				"east": 1,
+				"south": 10
+			},
+			"coord": "340282366920938463463374607431768211466"
+		},
+		"247": {
+			"compass": {
+				"west": 1,
+				"south": 10
+			},
+			"coord": "18446744073709551626"
+		},
+		"248": {
+			"compass": {
+				"west": 2,
+				"south": 10
+			},
+			"coord": "36893488147419103242"
+		},
+		"249": {
+			"compass": {
+				"west": 3,
+				"south": 10
+			},
+			"coord": "55340232221128654858"
+		},
+		"250": {
+			"compass": {
+				"west": 4,
+				"south": 9
+			},
+			"coord": "73786976294838206473"
+		},
+		"251": {
+			"compass": {
+				"west": 3,
+				"south": 9
+			},
+			"coord": "55340232221128654857"
+		},
+		"252": {
+			"compass": {
+				"west": 2,
+				"south": 9
+			},
+			"coord": "36893488147419103241"
+		},
+		"253": {
+			"compass": {
+				"west": 6,
+				"south": 6
+			},
+			"coord": "110680464442257309702"
+		},
+		"254": {
+			"compass": {
+				"west": 6,
+				"south": 7
+			},
+			"coord": "110680464442257309703"
+		},
+		"255": {
+			"compass": {
+				"west": 6,
+				"south": 8
+			},
+			"coord": "110680464442257309704"
+		},
+		"256": {
+			"compass": {
+				"west": 5,
+				"south": 8
+			},
+			"coord": "92233720368547758088"
+		},
+		"257": {
+			"compass": {
+				"north": 9,
+				"west": 1
+			},
+			"coord": "56493915618480126874522104808868997744939645744250020167680"
+		},
+		"258": {
+			"compass": {
+				"east": 3,
+				"south": 8
+			},
+			"coord": "1020847100762815390390123822295304634376"
+		},
+		"259": {
+			"compass": {
+				"east": 11,
+				"south": 7
+			},
+			"coord": "3743106036130323098097120681749450326023"
+		},
+		"260": {
+			"compass": {
+				"east": 3,
+				"south": 9
+			},
+			"coord": "1020847100762815390390123822295304634377"
+		},
+		"261": {
+			"compass": {
+				"east": 9,
+				"south": 2
+			},
+			"coord": "3062541302288446171170371466885913903106"
+		},
+		"262": {
+			"compass": {
+				"east": 10,
+				"south": 5
+			},
+			"coord": "3402823669209384634633746074317682114565"
+		},
+		"263": {
+			"compass": {
+				"east": 11,
+				"south": 5
+			},
+			"coord": "3743106036130323098097120681749450326021"
+		},
+		"264": {
+			"compass": {
+				"east": 8,
+				"south": 9
+			},
+			"coord": "2722258935367507707706996859454145691657"
+		},
+		"265": {
+			"compass": {
+				"east": 8,
+				"south": 10
+			},
+			"coord": "2722258935367507707706996859454145691658"
+		},
+		"266": {
+			"compass": {
+				"east": 9,
+				"south": 9
+			},
+			"coord": "3062541302288446171170371466885913903113"
+		},
+		"267": {
+			"compass": {
+				"east": 9,
+				"south": 3
+			},
+			"coord": "3062541302288446171170371466885913903107"
+		},
+		"268": {
+			"compass": {
+				"west": 8,
+				"south": 1
+			},
+			"coord": "147573952589676412929"
+		},
+		"269": {
+			"compass": {
+				"west": 8,
+				"south": 4
+			},
+			"coord": "147573952589676412932"
+		},
+		"270": {
+			"compass": {
+				"west": 9,
+				"south": 4
+			},
+			"coord": "166020696663385964548"
+		},
+		"271": {
+			"compass": {
+				"west": 9,
+				"south": 3
+			},
+			"coord": "166020696663385964547"
+		},
+		"272": {
+			"compass": {
+				"west": 10,
+				"south": 4
+			},
+			"coord": "184467440737095516164"
+		},
+		"273": {
+			"compass": {
+				"west": 8,
+				"south": 2
+			},
+			"coord": "147573952589676412930"
+		},
+		"274": {
+			"compass": {
+				"west": 9,
+				"south": 2
+			},
+			"coord": "166020696663385964546"
 		}
 	},
 	"chamberData": {
@@ -2843,9 +3095,9 @@
 				false,
 				false,
 				false,
-				true
+				false
 			],
-			"locksCount": 1
+			"locksCount": 0
 		},
 		"1701411834604692317316873037158841057286": {
 			"compass": {
@@ -2868,15 +3120,15 @@
 				9,
 				0,
 				80,
-				245
+				0
 			],
 			"locks": [
 				false,
 				false,
 				false,
-				true
+				false
 			],
-			"locksCount": 1
+			"locksCount": 0
 		},
 		"2041694201525630780780247644590609268742": {
 			"compass": {
@@ -2934,11 +3186,11 @@
 			],
 			"locks": [
 				false,
-				true,
 				false,
-				true
+				false,
+				false
 			],
-			"locksCount": 2
+			"locksCount": 0
 		},
 		"1361129467683753853853498429727072845830": {
 			"compass": {
@@ -2966,10 +3218,10 @@
 			"locks": [
 				false,
 				false,
-				true,
-				true
+				false,
+				false
 			],
-			"locksCount": 2
+			"locksCount": 0
 		},
 		"3062541302288446171170371466885913903110": {
 			"compass": {
@@ -2995,12 +3247,12 @@
 				250
 			],
 			"locks": [
-				true,
-				true,
 				false,
-				true
+				false,
+				false,
+				false
 			],
-			"locksCount": 3
+			"locksCount": 0
 		},
 		"2041694201525630780780247644590609268743": {
 			"compass": {
@@ -3028,10 +3280,10 @@
 			"locks": [
 				false,
 				false,
-				true,
+				false,
 				false
 			],
-			"locksCount": 1
+			"locksCount": 0
 		},
 		"2041694201525630780780247644590609268744": {
 			"compass": {
@@ -3052,17 +3304,17 @@
 			"worth": 290,
 			"doors": [
 				10,
-				159,
+				0,
 				176,
 				244
 			],
 			"locks": [
 				false,
-				true,
-				true,
-				true
+				false,
+				false,
+				false
 			],
-			"locksCount": 3
+			"locksCount": 0
 		},
 		"2041694201525630780780247644590609268745": {
 			"compass": {
@@ -3089,11 +3341,11 @@
 			],
 			"locks": [
 				false,
-				true,
+				false,
 				true,
 				true
 			],
-			"locksCount": 3
+			"locksCount": 2
 		},
 		"340282366920938463463374607431768211460": {
 			"compass": {
@@ -3243,12 +3495,12 @@
 				245
 			],
 			"locks": [
-				true,
+				false,
 				false,
 				false,
 				false
 			],
-			"locksCount": 1
+			"locksCount": 0
 		},
 		"1361129467683753853853498429727072845826": {
 			"compass": {
@@ -3648,10 +3900,10 @@
 			"locks": [
 				false,
 				false,
-				true,
+				false,
 				false
 			],
-			"locksCount": 1
+			"locksCount": 0
 		},
 		"92233720368547758081": {
 			"compass": {
@@ -3679,10 +3931,10 @@
 			"locks": [
 				false,
 				false,
-				true,
+				false,
 				false
 			],
-			"locksCount": 1
+			"locksCount": 0
 		},
 		"73786976294838206466": {
 			"compass": {
@@ -3888,18 +4140,18 @@
 			"coins": 40,
 			"worth": 190,
 			"doors": [
-				10,
+				0,
 				175,
 				80,
 				244
 			],
 			"locks": [
-				true,
+				false,
 				false,
 				false,
 				false
 			],
-			"locksCount": 1
+			"locksCount": 0
 		},
 		"25108406941546723055343157692830665664464762010077266706432": {
 			"compass": {
@@ -3921,16 +4173,16 @@
 			"doors": [
 				5,
 				159,
-				144,
+				0,
 				250
 			],
 			"locks": [
-				true,
 				false,
-				true,
+				false,
+				false,
 				false
 			],
-			"locksCount": 2
+			"locksCount": 0
 		},
 		"55340232221128654852": {
 			"compass": {
@@ -4080,12 +4332,12 @@
 				247
 			],
 			"locks": [
-				true,
+				false,
 				false,
 				false,
 				false
 			],
-			"locksCount": 1
+			"locksCount": 0
 		},
 		"1361129467683753853853498429727072845828": {
 			"compass": {
@@ -4142,12 +4394,12 @@
 				244
 			],
 			"locks": [
-				true,
+				false,
 				false,
 				false,
 				false
 			],
-			"locksCount": 1
+			"locksCount": 0
 		},
 		"18446744073709551622": {
 			"compass": {
@@ -4260,18 +4512,18 @@
 			"coins": 40,
 			"worth": 240,
 			"doors": [
-				9,
+				0,
 				95,
 				176,
 				245
 			],
 			"locks": [
-				true,
 				false,
-				true,
-				true
+				false,
+				false,
+				false
 			],
-			"locksCount": 3
+			"locksCount": 0
 		},
 		"1701411834604692317316873037158841057284": {
 			"compass": {
@@ -4329,11 +4581,11 @@
 			],
 			"locks": [
 				false,
-				true,
+				false,
 				false,
 				false
 			],
-			"locksCount": 1
+			"locksCount": 0
 		},
 		"92233720368547758082": {
 			"compass": {
@@ -4355,16 +4607,16 @@
 			"doors": [
 				6,
 				111,
-				112,
+				0,
 				246
 			],
 			"locks": [
 				false,
 				false,
-				true,
+				false,
 				false
 			],
-			"locksCount": 1
+			"locksCount": 0
 		},
 		"2041694201525630780780247644590609268737": {
 			"compass": {
@@ -4453,11 +4705,11 @@
 			],
 			"locks": [
 				false,
-				true,
+				false,
 				false,
 				false
 			],
-			"locksCount": 1
+			"locksCount": 0
 		},
 		"31385508676933403819178947116038332080530223966393882116096": {
 			"compass": {
@@ -4483,12 +4735,12 @@
 				248
 			],
 			"locks": [
-				true,
 				false,
-				true,
+				false,
+				false,
 				false
 			],
-			"locksCount": 2
+			"locksCount": 0
 		},
 		"12554203470773361530053555414861902076448333140950446505984": {
 			"compass": {
@@ -4514,12 +4766,12 @@
 				247
 			],
 			"locks": [
-				true,
+				false,
 				false,
 				false,
 				false
 			],
-			"locksCount": 1
+			"locksCount": 0
 		},
 		"12554203470773361529713273047940963612984958533518678294528": {
 			"compass": {
@@ -4572,16 +4824,16 @@
 			"doors": [
 				9,
 				79,
-				128,
+				0,
 				247
 			],
 			"locks": [
-				true,
-				true,
-				true,
+				false,
+				false,
+				false,
 				false
 			],
-			"locksCount": 3
+			"locksCount": 0
 		},
 		"73786976294838206467": {
 			"compass": {
@@ -4726,17 +4978,17 @@
 			"worth": 200,
 			"doors": [
 				9,
-				159,
+				0,
 				96,
 				246
 			],
 			"locks": [
 				false,
-				true,
 				false,
-				true
+				false,
+				false
 			],
-			"locksCount": 2
+			"locksCount": 0
 		},
 		"55340232221128654853": {
 			"compass": {
@@ -4764,10 +5016,10 @@
 			"locks": [
 				false,
 				false,
-				true,
-				true
+				false,
+				false
 			],
-			"locksCount": 2
+			"locksCount": 0
 		},
 		"25108406941546723055343157692830665664446315266003557154816": {
 			"compass": {
@@ -4793,12 +5045,12 @@
 				249
 			],
 			"locks": [
-				true,
+				false,
 				false,
 				false,
 				false
 			],
-			"locksCount": 1
+			"locksCount": 0
 		},
 		"2041694201525630780780247644590609268739": {
 			"compass": {
@@ -5011,11 +5263,11 @@
 			],
 			"locks": [
 				false,
-				true,
+				false,
 				false,
 				false
 			],
-			"locksCount": 1
+			"locksCount": 0
 		},
 		"2722258935367507707706996859454145691652": {
 			"compass": {
@@ -5103,12 +5355,12 @@
 				248
 			],
 			"locks": [
-				true,
-				true,
+				false,
+				false,
 				false,
 				false
 			],
-			"locksCount": 2
+			"locksCount": 0
 		},
 		"31385508676933403819859511849880209007438526437183708987392": {
 			"compass": {
@@ -5129,17 +5381,17 @@
 			"worth": 120,
 			"doors": [
 				8,
-				111,
+				0,
 				64,
 				251
 			],
 			"locks": [
-				true,
-				true,
+				false,
+				false,
 				false,
 				false
 			],
-			"locksCount": 2
+			"locksCount": 0
 		},
 		"1361129467683753853853498429727072845829": {
 			"compass": {
@@ -5198,10 +5450,10 @@
 			"locks": [
 				false,
 				false,
-				true,
-				true
+				false,
+				false
 			],
-			"locksCount": 2
+			"locksCount": 0
 		},
 		"18446744073709551623": {
 			"compass": {
@@ -5228,11 +5480,11 @@
 			],
 			"locks": [
 				false,
-				true,
-				true,
-				true
+				false,
+				false,
+				false
 			],
-			"locksCount": 3
+			"locksCount": 0
 		},
 		"2722258935367507707706996859454145691653": {
 			"compass": {
@@ -5259,11 +5511,11 @@
 			],
 			"locks": [
 				false,
-				true,
+				false,
 				false,
 				false
 			],
-			"locksCount": 1
+			"locksCount": 0
 		},
 		"18831305206160042293549062471148630029087313977982712807424": {
 			"compass": {
@@ -5283,18 +5535,18 @@
 			"coins": 20,
 			"worth": 120,
 			"doors": [
-				7,
+				0,
 				143,
 				64,
 				248
 			],
 			"locks": [
-				true,
-				true,
+				false,
+				false,
 				false,
 				false
 			],
-			"locksCount": 2
+			"locksCount": 0
 		},
 		"37662610412320084583355018906166936960077507274215975288832": {
 			"compass": {
@@ -5320,12 +5572,12 @@
 				250
 			],
 			"locks": [
-				true,
-				true,
-				true,
+				false,
+				false,
+				false,
 				false
 			],
-			"locksCount": 3
+			"locksCount": 0
 		},
 		"340282366920938463463374607431768211462": {
 			"compass": {
@@ -5354,9 +5606,9 @@
 				false,
 				false,
 				false,
-				true
+				false
 			],
-			"locksCount": 1
+			"locksCount": 0
 		},
 		"12554203470773361530393837781782840539911707748382214717440": {
 			"compass": {
@@ -5376,18 +5628,18 @@
 			"coins": 110,
 			"worth": 160,
 			"doors": [
-				5,
-				159,
+				0,
+				0,
 				176,
 				249
 			],
 			"locks": [
-				true,
-				true,
+				false,
+				false,
 				false,
 				false
 			],
-			"locksCount": 2
+			"locksCount": 0
 		},
 		"25108406941546723055343157692830665664427868521929847603200": {
 			"compass": {
@@ -5533,16 +5785,16 @@
 			"doors": [
 				10,
 				159,
-				144,
+				0,
 				249
 			],
 			"locks": [
 				false,
 				false,
-				true,
-				true
+				false,
+				false
 			],
-			"locksCount": 2
+			"locksCount": 0
 		},
 		"92233720368547758083": {
 			"compass": {
@@ -5570,10 +5822,10 @@
 			"locks": [
 				false,
 				false,
-				true,
-				true
+				false,
+				false
 			],
-			"locksCount": 2
+			"locksCount": 0
 		},
 		"680564733841876926926749214863536422918": {
 			"compass": {
@@ -5602,9 +5854,9 @@
 				false,
 				false,
 				false,
-				true
+				false
 			],
-			"locksCount": 1
+			"locksCount": 0
 		},
 		"25108406941546723055343157692830665664501655498224685809664": {
 			"compass": {
@@ -5630,12 +5882,12 @@
 				244
 			],
 			"locks": [
-				true,
-				true,
-				true,
+				false,
+				false,
+				false,
 				false
 			],
-			"locksCount": 3
+			"locksCount": 0
 		},
 		"3062541302288446171170371466885913903108": {
 			"compass": {
@@ -5661,12 +5913,12 @@
 				249
 			],
 			"locks": [
-				true,
+				false,
 				true,
 				false,
-				true
+				false
 			],
-			"locksCount": 3
+			"locksCount": 1
 		},
 		"36893488147419103238": {
 			"compass": {
@@ -5694,10 +5946,10 @@
 			"locks": [
 				false,
 				false,
-				true,
-				true
+				false,
+				false
 			],
-			"locksCount": 2
+			"locksCount": 0
 		},
 		"1701411834604692317316873037158841057288": {
 			"compass": {
@@ -5723,12 +5975,12 @@
 				246
 			],
 			"locks": [
-				true,
+				false,
 				false,
 				false,
 				true
 			],
-			"locksCount": 2
+			"locksCount": 1
 		},
 		"1020847100762815390390123822295304634374": {
 			"compass": {
@@ -5786,11 +6038,11 @@
 			],
 			"locks": [
 				false,
-				true,
-				true,
-				true
+				false,
+				false,
+				false
 			],
-			"locksCount": 3
+			"locksCount": 0
 		},
 		"1361129467683753853853498429727072845832": {
 			"compass": {
@@ -5812,16 +6064,16 @@
 			"doors": [
 				6,
 				143,
-				112,
+				0,
 				245
 			],
 			"locks": [
-				true,
 				false,
-				true,
-				true
+				false,
+				false,
+				false
 			],
-			"locksCount": 3
+			"locksCount": 0
 		},
 		"3402823669209384634633746074317682114566": {
 			"compass": {
@@ -5847,12 +6099,12 @@
 				251
 			],
 			"locks": [
-				true,
+				false,
 				true,
 				false,
-				true
+				false
 			],
-			"locksCount": 3
+			"locksCount": 1
 		},
 		"1701411834604692317316873037158841057287": {
 			"compass": {
@@ -6188,12 +6440,12 @@
 				245
 			],
 			"locks": [
-				true,
-				true,
+				false,
+				false,
 				false,
 				false
 			],
-			"locksCount": 2
+			"locksCount": 0
 		},
 		"37662610412320084583014736539245998496632579410857916628992": {
 			"compass": {
@@ -6252,10 +6504,10 @@
 			"locks": [
 				false,
 				false,
-				true,
+				false,
 				false
 			],
-			"locksCount": 1
+			"locksCount": 0
 		},
 		"37662610412320084583014736539245998496687919643079045283840": {
 			"compass": {
@@ -6312,12 +6564,12 @@
 				246
 			],
 			"locks": [
-				true,
+				false,
 				false,
 				false,
 				false
 			],
-			"locksCount": 1
+			"locksCount": 0
 		},
 		"43939712147706765346850525962453664912808721831616789348352": {
 			"compass": {
@@ -6343,12 +6595,12 @@
 				247
 			],
 			"locks": [
-				true,
+				false,
 				false,
 				true,
 				false
 			],
-			"locksCount": 2
+			"locksCount": 1
 		},
 		"43939712147706765346850525962453664912790275087543079796736": {
 			"compass": {
@@ -6374,12 +6626,12 @@
 				251
 			],
 			"locks": [
-				true,
+				false,
 				false,
 				false,
 				false
 			],
-			"locksCount": 1
+			"locksCount": 0
 		},
 		"37662610412320084583014736539245998496706366387152754835456": {
 			"compass": {
@@ -6498,12 +6750,12 @@
 				248
 			],
 			"locks": [
-				true,
+				false,
 				false,
 				false,
 				false
 			],
-			"locksCount": 1
+			"locksCount": 0
 		},
 		"43939712147706765347190808329374603376179862718680009801728": {
 			"compass": {
@@ -6529,12 +6781,12 @@
 				250
 			],
 			"locks": [
-				true,
-				true,
+				false,
+				false,
 				false,
 				false
 			],
-			"locksCount": 2
+			"locksCount": 0
 		},
 		"25108406941546723055343157692830665664520102242298395361280": {
 			"compass": {
@@ -6624,10 +6876,10 @@
 			"locks": [
 				false,
 				false,
-				true,
+				false,
 				false
 			],
-			"locksCount": 1
+			"locksCount": 0
 		},
 		"110680464442257309698": {
 			"compass": {
@@ -6686,10 +6938,10 @@
 			"locks": [
 				false,
 				false,
-				true,
-				true
+				false,
+				false
 			],
-			"locksCount": 2
+			"locksCount": 0
 		},
 		"110680464442257309699": {
 			"compass": {
@@ -6717,10 +6969,10 @@
 			"locks": [
 				false,
 				false,
-				true,
-				true
+				false,
+				false
 			],
-			"locksCount": 2
+			"locksCount": 0
 		},
 		"55340232221128654854": {
 			"compass": {
@@ -6748,10 +7000,10 @@
 			"locks": [
 				false,
 				false,
-				true,
+				false,
 				false
 			],
-			"locksCount": 1
+			"locksCount": 0
 		},
 		"129127208515966861314": {
 			"compass": {
@@ -6774,15 +7026,15 @@
 				4,
 				175,
 				96,
-				245
+				0
 			],
 			"locks": [
-				true,
 				false,
-				true,
-				true
+				false,
+				false,
+				false
 			],
-			"locksCount": 3
+			"locksCount": 0
 		},
 		"18831305206160042291507368269622999248436193541908070400000": {
 			"compass": {
@@ -6840,11 +7092,11 @@
 			],
 			"locks": [
 				false,
-				true,
+				false,
 				false,
 				false
 			],
-			"locksCount": 1
+			"locksCount": 0
 		},
 		"12554203470773361527671578846415332832352284841517745438720": {
 			"compass": {
@@ -6895,18 +7147,18 @@
 			"coins": 50,
 			"worth": 250,
 			"doors": [
-				10,
+				0,
 				191,
 				96,
 				247
 			],
 			"locks": [
-				true,
-				true,
+				false,
+				false,
 				false,
 				false
 			],
-			"locksCount": 2
+			"locksCount": 0
 		},
 		"3062541302288446171170371466885913903109": {
 			"compass": {
@@ -6933,11 +7185,11 @@
 			],
 			"locks": [
 				false,
-				true,
+				false,
 				false,
 				false
 			],
-			"locksCount": 1
+			"locksCount": 0
 		},
 		"55340232221128654855": {
 			"compass": {
@@ -6964,11 +7216,11 @@
 			],
 			"locks": [
 				false,
-				true,
-				true,
-				true
+				false,
+				false,
+				false
 			],
-			"locksCount": 3
+			"locksCount": 0
 		},
 		"43939712147706765347871373063216480303106611933543546224640": {
 			"compass": {
@@ -6990,16 +7242,16 @@
 			"doors": [
 				4,
 				127,
-				176,
+				0,
 				245
 			],
 			"locks": [
-				true,
-				true,
-				true,
+				false,
+				false,
+				false,
 				false
 			],
-			"locksCount": 3
+			"locksCount": 0
 		},
 		"31385508676933403819178947116038332080622457686762429874176": {
 			"compass": {
@@ -7057,11 +7309,11 @@
 			],
 			"locks": [
 				false,
+				false,
 				true,
-				true,
-				true
+				false
 			],
-			"locksCount": 3
+			"locksCount": 1
 		},
 		"56493915618480126874522104808868997744958092488323729719296": {
 			"compass": {
@@ -7088,11 +7340,11 @@
 			],
 			"locks": [
 				true,
-				true,
+				false,
 				true,
 				false
 			],
-			"locksCount": 3
+			"locksCount": 2
 		},
 		"2722258935367507707706996859454145691655": {
 			"compass": {
@@ -7119,11 +7371,11 @@
 			],
 			"locks": [
 				false,
-				true,
 				false,
-				true
+				false,
+				false
 			],
-			"locksCount": 2
+			"locksCount": 0
 		},
 		"25108406941546723055343157692830665664538548986372104912896": {
 			"compass": {
@@ -7151,10 +7403,10 @@
 			"locks": [
 				true,
 				false,
-				true,
+				false,
 				false
 			],
-			"locksCount": 2
+			"locksCount": 1
 		},
 		"2381976568446569244243622252022377480203": {
 			"compass": {
@@ -7394,15 +7646,15 @@
 				4,
 				191,
 				160,
-				246
+				0
 			],
 			"locks": [
 				false,
 				false,
 				false,
-				true
+				false
 			],
-			"locksCount": 1
+			"locksCount": 0
 		},
 		"92233720368547758085": {
 			"compass": {
@@ -7678,10 +7930,10 @@
 			"locks": [
 				true,
 				false,
-				true,
+				false,
 				false
 			],
-			"locksCount": 2
+			"locksCount": 1
 		},
 		"56493915618480126875202669542710874671847948215039847038976": {
 			"compass": {
@@ -7989,9 +8241,9 @@
 				false,
 				false,
 				true,
-				true
+				false
 			],
-			"locksCount": 2
+			"locksCount": 1
 		},
 		"110680464442257309700": {
 			"compass": {
@@ -8050,10 +8302,10 @@
 			"locks": [
 				false,
 				false,
-				true,
+				false,
 				true
 			],
-			"locksCount": 2
+			"locksCount": 1
 		},
 		"129127208515966861315": {
 			"compass": {
@@ -8142,11 +8394,11 @@
 			],
 			"locks": [
 				false,
-				true,
+				false,
 				false,
 				false
 			],
-			"locksCount": 1
+			"locksCount": 0
 		},
 		"18831305206160042294569909571911445419477437800278017441792": {
 			"compass": {
@@ -8203,12 +8455,12 @@
 				251
 			],
 			"locks": [
-				true,
 				false,
-				true,
-				true
+				false,
+				false,
+				false
 			],
-			"locksCount": 3
+			"locksCount": 0
 		},
 		"50216813883093446110686315385661331328911077276080823861248": {
 			"compass": {
@@ -8267,10 +8519,10 @@
 			"locks": [
 				false,
 				false,
-				true,
+				false,
 				false
 			],
-			"locksCount": 1
+			"locksCount": 0
 		},
 		"12554203470773361530734120148703779003375082355813982928896": {
 			"compass": {
@@ -8329,10 +8581,10 @@
 			"locks": [
 				false,
 				false,
-				true,
-				true
+				false,
+				false
 			],
-			"locksCount": 2
+			"locksCount": 0
 		},
 		"73786976294838206472": {
 			"compass": {
@@ -8359,11 +8611,11 @@
 			],
 			"locks": [
 				false,
-				true,
-				true,
-				true
+				false,
+				false,
+				false
 			],
-			"locksCount": 3
+			"locksCount": 0
 		},
 		"680564733841876926926749214863536422920": {
 			"compass": {
@@ -8390,11 +8642,11 @@
 			],
 			"locks": [
 				false,
-				true,
-				true,
+				false,
+				false,
 				true
 			],
-			"locksCount": 3
+			"locksCount": 1
 		},
 		"12554203470773361531074402515624717466838456963245751140352": {
 			"compass": {
@@ -8423,9 +8675,9 @@
 				true,
 				true,
 				false,
-				true
+				false
 			],
-			"locksCount": 3
+			"locksCount": 2
 		},
 		"50216813883093446110686315385661331328892630532007114309632": {
 			"compass": {
@@ -8479,15 +8731,15 @@
 				0,
 				175,
 				160,
-				249
+				0
 			],
 			"locks": [
 				false,
 				true,
 				false,
-				true
+				false
 			],
-			"locksCount": 2
+			"locksCount": 1
 		},
 		"6277101735386680766898330725496112587272726911349948416000": {
 			"compass": {
@@ -8514,11 +8766,11 @@
 			],
 			"locks": [
 				false,
-				true,
+				false,
 				false,
 				false
 			],
-			"locksCount": 1
+			"locksCount": 0
 		},
 		"56493915618480126875542951909631813135311322822471615250432": {
 			"compass": {
@@ -8576,11 +8828,11 @@
 			],
 			"locks": [
 				false,
-				true,
-				true,
-				true
+				false,
+				false,
+				false
 			],
-			"locksCount": 3
+			"locksCount": 0
 		},
 		"25108406941546723055343157692830665664556995730445814464512": {
 			"compass": {
@@ -8639,10 +8891,10 @@
 			"locks": [
 				false,
 				false,
-				true,
-				true
+				false,
+				false
 			],
-			"locksCount": 2
+			"locksCount": 0
 		},
 		"3062541302288446171170371466885913903111": {
 			"compass": {
@@ -8702,9 +8954,9 @@
 				false,
 				false,
 				false,
-				true
+				false
 			],
-			"locksCount": 1
+			"locksCount": 0
 		},
 		"3402823669209384634633746074317682114567": {
 			"compass": {
@@ -8731,11 +8983,11 @@
 			],
 			"locks": [
 				false,
-				true,
+				false,
 				false,
 				false
 			],
-			"locksCount": 1
+			"locksCount": 0
 		},
 		"3402823669209384634633746074317682114568": {
 			"compass": {
@@ -9037,7 +9289,286 @@
 				10,
 				95,
 				96,
+				0
+			],
+			"locks": [
+				false,
+				false,
+				false,
+				false
+			],
+			"locksCount": 0
+		},
+		"1361129467683753853853498429727072845833": {
+			"compass": {
+				"east": 4,
+				"south": 9
+			},
+			"coord": "1361129467683753853853498429727072845833",
+			"seed": "0xe3e20bf0bf8fdaa264ea6d46893a530d43a91faad4dfa56fe1f6d8d604b6e62b",
+			"tokenId": 239,
+			"yonder": 18,
+			"name": "Chamber #239",
+			"chapter": 1,
+			"terrain": 4,
+			"entryDir": 0,
+			"gemPos": 173,
+			"gemType": 0,
+			"coins": 50,
+			"worth": 100,
+			"doors": [
+				5,
+				175,
+				160,
+				246
+			],
+			"locks": [
+				false,
+				true,
+				false,
+				true
+			],
+			"locksCount": 2
+		},
+		"6277101735386680767238613092417051050736101518781716627456": {
+			"compass": {
+				"north": 1,
+				"east": 10
+			},
+			"coord": "6277101735386680767238613092417051050736101518781716627456",
+			"seed": "0x4e5508a1c8cf1892d9b196d8011345f811ebe2ca525ad40af5c19701023b6537",
+			"tokenId": 240,
+			"yonder": 18,
+			"name": "Chamber #240",
+			"chapter": 1,
+			"terrain": 2,
+			"entryDir": 2,
+			"gemPos": 165,
+			"gemType": 0,
+			"coins": 150,
+			"worth": 200,
+			"doors": [
+				4,
+				175,
+				112,
+				247
+			],
+			"locks": [
+				false,
+				true,
+				false,
+				true
+			],
+			"locksCount": 2
+		},
+		"340282366920938463463374607431768211464": {
+			"compass": {
+				"east": 1,
+				"south": 8
+			},
+			"coord": "340282366920938463463374607431768211464",
+			"seed": "0x8e4dde03fac531d66ce61521495768d9772950fc1e58539f5fd3589f800a0e50",
+			"tokenId": 241,
+			"yonder": 9,
+			"name": "Chamber #241",
+			"chapter": 1,
+			"terrain": 2,
+			"entryDir": 2,
+			"gemPos": 202,
+			"gemType": 1,
+			"coins": 290,
+			"worth": 390,
+			"doors": [
+				0,
+				159,
+				64,
+				249
+			],
+			"locks": [
+				false,
+				false,
+				false,
+				false
+			],
+			"locksCount": 0
+		},
+		"129127208515966861313": {
+			"compass": {
+				"west": 7,
+				"south": 1
+			},
+			"coord": "129127208515966861313",
+			"seed": "0xca9e20a244c2d5105992a1f5c27905fd74d534dca0869371a7d83d1cc8178f62",
+			"tokenId": 242,
+			"yonder": 9,
+			"name": "Chamber #242",
+			"chapter": 1,
+			"terrain": 1,
+			"entryDir": 1,
+			"gemPos": 99,
+			"gemType": 1,
+			"coins": 120,
+			"worth": 220,
+			"doors": [
+				6,
+				143,
+				176,
+				244
+			],
+			"locks": [
+				false,
+				false,
+				false,
+				false
+			],
+			"locksCount": 0
+		},
+		"6277101735386680763835789423207666416231482652980001374208": {
+			"compass": {
+				"north": 1,
+				"west": 7
+			},
+			"coord": "6277101735386680763835789423207666416231482652980001374208",
+			"seed": "0x90d10d9db7d40007106bf956f46990ca12e2dba5eda1788321ae2bf18403a4fa",
+			"tokenId": 243,
+			"yonder": 10,
+			"name": "Chamber #243",
+			"chapter": 1,
+			"terrain": 1,
+			"entryDir": 3,
+			"gemPos": 98,
+			"gemType": 2,
+			"coins": 30,
+			"worth": 180,
+			"doors": [
+				5,
+				127,
+				128,
+				246
+			],
+			"locks": [
+				false,
+				false,
+				true,
+				false
+			],
+			"locksCount": 1
+		},
+		"340282366920938463463374607431768211465": {
+			"compass": {
+				"east": 1,
+				"south": 9
+			},
+			"coord": "340282366920938463463374607431768211465",
+			"seed": "0x2d082b12396179a66e407b6f88cea0f807462efd1e7c419f55b2b86b8b5edb4e",
+			"tokenId": 244,
+			"yonder": 10,
+			"name": "Chamber #244",
+			"chapter": 1,
+			"terrain": 2,
+			"entryDir": 0,
+			"gemPos": 59,
+			"gemType": 2,
+			"coins": 50,
+			"worth": 200,
+			"doors": [
+				9,
+				159,
+				144,
+				248
+			],
+			"locks": [
+				false,
+				true,
+				false,
+				false
+			],
+			"locksCount": 1
+		},
+		"55340232221128654856": {
+			"compass": {
+				"west": 3,
+				"south": 8
+			},
+			"coord": "55340232221128654856",
+			"seed": "0x5209940837570b0f806440174387ca64706351b50073bb2f4337273c33194e7a",
+			"tokenId": 245,
+			"yonder": 10,
+			"name": "Chamber #245",
+			"chapter": 1,
+			"terrain": 1,
+			"entryDir": 0,
+			"gemPos": 99,
+			"gemType": 4,
+			"coins": 520,
+			"worth": 820,
+			"doors": [
+				6,
+				143,
+				160,
 				251
+			],
+			"locks": [
+				false,
+				false,
+				false,
+				false
+			],
+			"locksCount": 0
+		},
+		"340282366920938463463374607431768211466": {
+			"compass": {
+				"east": 1,
+				"south": 10
+			},
+			"coord": "340282366920938463463374607431768211466",
+			"seed": "0x5ae9eb0d637006310ffa7a2045fc682b7dba5b0ed956d6b78d1f99f4fa3b12bd",
+			"tokenId": 246,
+			"yonder": 11,
+			"name": "Chamber #246",
+			"chapter": 1,
+			"terrain": 1,
+			"entryDir": 0,
+			"gemPos": 141,
+			"gemType": 3,
+			"coins": 10,
+			"worth": 210,
+			"doors": [
+				8,
+				95,
+				96,
+				247
+			],
+			"locks": [
+				false,
+				true,
+				false,
+				true
+			],
+			"locksCount": 2
+		},
+		"18446744073709551626": {
+			"compass": {
+				"west": 1,
+				"south": 10
+			},
+			"coord": "18446744073709551626",
+			"seed": "0xc3f80d58a40280cd8926432f17e0b6a6f3aa397d92cebf2d1aa6161a01ca53af",
+			"tokenId": 247,
+			"yonder": 12,
+			"name": "Chamber #247",
+			"chapter": 1,
+			"terrain": 1,
+			"entryDir": 1,
+			"gemPos": 114,
+			"gemType": 1,
+			"coins": 90,
+			"worth": 190,
+			"doors": [
+				8,
+				111,
+				112,
+				246
 			],
 			"locks": [
 				false,
@@ -9046,6 +9577,843 @@
 				true
 			],
 			"locksCount": 1
+		},
+		"36893488147419103242": {
+			"compass": {
+				"west": 2,
+				"south": 10
+			},
+			"coord": "36893488147419103242",
+			"seed": "0x1ccfa8ceba2a70423ac4e011583ebad1084d113f1e314e05bcc369884a67ef3c",
+			"tokenId": 248,
+			"yonder": 13,
+			"name": "Chamber #248",
+			"chapter": 1,
+			"terrain": 1,
+			"entryDir": 1,
+			"gemPos": 148,
+			"gemType": 0,
+			"coins": 10,
+			"worth": 60,
+			"doors": [
+				8,
+				127,
+				176,
+				247
+			],
+			"locks": [
+				false,
+				false,
+				false,
+				true
+			],
+			"locksCount": 1
+		},
+		"55340232221128654858": {
+			"compass": {
+				"west": 3,
+				"south": 10
+			},
+			"coord": "55340232221128654858",
+			"seed": "0x87d921302609838f0e40c0d0bad1127f3f09669ee33178033854e3a3cf6bf946",
+			"tokenId": 249,
+			"yonder": 14,
+			"name": "Chamber #249",
+			"chapter": 1,
+			"terrain": 2,
+			"entryDir": 1,
+			"gemPos": 104,
+			"gemType": 1,
+			"coins": 140,
+			"worth": 240,
+			"doors": [
+				10,
+				191,
+				80,
+				248
+			],
+			"locks": [
+				false,
+				false,
+				true,
+				true
+			],
+			"locksCount": 2
+		},
+		"73786976294838206473": {
+			"compass": {
+				"west": 4,
+				"south": 9
+			},
+			"coord": "73786976294838206473",
+			"seed": "0xb746f3f3b1cc66ad26d38d3a889c0d31ee5337f7d75bf98622c203ce12720a56",
+			"tokenId": 250,
+			"yonder": 12,
+			"name": "Chamber #250",
+			"chapter": 1,
+			"terrain": 1,
+			"entryDir": 0,
+			"gemPos": 189,
+			"gemType": 0,
+			"coins": 20,
+			"worth": 70,
+			"doors": [
+				7,
+				79,
+				96,
+				249
+			],
+			"locks": [
+				false,
+				false,
+				true,
+				true
+			],
+			"locksCount": 2
+		},
+		"55340232221128654857": {
+			"compass": {
+				"west": 3,
+				"south": 9
+			},
+			"coord": "55340232221128654857",
+			"seed": "0x152948c265a9a3b1081344ce0411284751be6d0d598a6799dc50b9ce5cd523f3",
+			"tokenId": 251,
+			"yonder": 13,
+			"name": "Chamber #251",
+			"chapter": 1,
+			"terrain": 1,
+			"entryDir": 2,
+			"gemPos": 179,
+			"gemType": 0,
+			"coins": 270,
+			"worth": 320,
+			"doors": [
+				11,
+				111,
+				64,
+				250
+			],
+			"locks": [
+				false,
+				false,
+				false,
+				false
+			],
+			"locksCount": 0
+		},
+		"36893488147419103241": {
+			"compass": {
+				"west": 2,
+				"south": 9
+			},
+			"coord": "36893488147419103241",
+			"seed": "0x0e5c74cddc954ce40673adce11b0de1f79267b88de55638261fb87573972de99",
+			"tokenId": 252,
+			"yonder": 14,
+			"name": "Chamber #252",
+			"chapter": 1,
+			"terrain": 1,
+			"entryDir": 3,
+			"gemPos": 105,
+			"gemType": 1,
+			"coins": 240,
+			"worth": 340,
+			"doors": [
+				8,
+				79,
+				96,
+				248
+			],
+			"locks": [
+				false,
+				false,
+				false,
+				false
+			],
+			"locksCount": 0
+		},
+		"110680464442257309702": {
+			"compass": {
+				"west": 6,
+				"south": 6
+			},
+			"coord": "110680464442257309702",
+			"seed": "0x318e91b7515903b4a2a1c52ccbcedbf907c2ef9d786d049e5747fc3d853693bf",
+			"tokenId": 253,
+			"yonder": 13,
+			"name": "Chamber #253",
+			"chapter": 1,
+			"terrain": 3,
+			"entryDir": 1,
+			"gemPos": 205,
+			"gemType": 5,
+			"coins": 10,
+			"worth": 510,
+			"doors": [
+				6,
+				159,
+				112,
+				247
+			],
+			"locks": [
+				false,
+				false,
+				true,
+				false
+			],
+			"locksCount": 1
+		},
+		"110680464442257309703": {
+			"compass": {
+				"west": 6,
+				"south": 7
+			},
+			"coord": "110680464442257309703",
+			"seed": "0x365fa9db0692c6514730ba85d8a7944afcdb07d866cb374ba06834ac8eeb2853",
+			"tokenId": 254,
+			"yonder": 14,
+			"name": "Chamber #254",
+			"chapter": 1,
+			"terrain": 4,
+			"entryDir": 0,
+			"gemPos": 156,
+			"gemType": 2,
+			"coins": 130,
+			"worth": 280,
+			"doors": [
+				7,
+				111,
+				64,
+				249
+			],
+			"locks": [
+				false,
+				false,
+				true,
+				false
+			],
+			"locksCount": 1
+		},
+		"110680464442257309704": {
+			"compass": {
+				"west": 6,
+				"south": 8
+			},
+			"coord": "110680464442257309704",
+			"seed": "0xf1e56821f53aae562d00da8aa1ed43e97badf1f3d2229427c6f6ec2ddd8f4326",
+			"tokenId": 255,
+			"yonder": 15,
+			"name": "Chamber #255",
+			"chapter": 1,
+			"terrain": 4,
+			"entryDir": 0,
+			"gemPos": 130,
+			"gemType": 2,
+			"coins": 10,
+			"worth": 160,
+			"doors": [
+				9,
+				143,
+				112,
+				246
+			],
+			"locks": [
+				false,
+				false,
+				true,
+				true
+			],
+			"locksCount": 2
+		},
+		"92233720368547758088": {
+			"compass": {
+				"west": 5,
+				"south": 8
+			},
+			"coord": "92233720368547758088",
+			"seed": "0x7bd4794d1eead2028065ffb5b346204ec616dff7bf923fc74c73455da9a2f2a0",
+			"tokenId": 256,
+			"yonder": 16,
+			"name": "Chamber #256",
+			"chapter": 1,
+			"terrain": 4,
+			"entryDir": 2,
+			"gemPos": 68,
+			"gemType": 1,
+			"coins": 20,
+			"worth": 120,
+			"doors": [
+				5,
+				143,
+				128,
+				246
+			],
+			"locks": [
+				false,
+				false,
+				false,
+				true
+			],
+			"locksCount": 1
+		},
+		"56493915618480126874522104808868997744939645744250020167680": {
+			"compass": {
+				"north": 9,
+				"west": 1
+			},
+			"coord": "56493915618480126874522104808868997744939645744250020167680",
+			"seed": "0x20f185f559cb1a9a7096bc204600fd356fae97ac06c008ebec71d7ecac52ca2a",
+			"tokenId": 257,
+			"yonder": 16,
+			"name": "Chamber #257",
+			"chapter": 1,
+			"terrain": 1,
+			"entryDir": 3,
+			"gemPos": 39,
+			"gemType": 2,
+			"coins": 120,
+			"worth": 270,
+			"doors": [
+				6,
+				79,
+				96,
+				246
+			],
+			"locks": [
+				true,
+				false,
+				false,
+				false
+			],
+			"locksCount": 1
+		},
+		"1020847100762815390390123822295304634376": {
+			"compass": {
+				"east": 3,
+				"south": 8
+			},
+			"coord": "1020847100762815390390123822295304634376",
+			"seed": "0x908310d390e74b4100fcf1027720a8895bf2289d810ce5abbc48f64681ebd3d4",
+			"tokenId": 258,
+			"yonder": 12,
+			"name": "Chamber #258",
+			"chapter": 1,
+			"terrain": 1,
+			"entryDir": 2,
+			"gemPos": 116,
+			"gemType": 0,
+			"coins": 60,
+			"worth": 110,
+			"doors": [
+				4,
+				0,
+				144,
+				249
+			],
+			"locks": [
+				false,
+				false,
+				false,
+				false
+			],
+			"locksCount": 0
+		},
+		"3743106036130323098097120681749450326023": {
+			"compass": {
+				"east": 11,
+				"south": 7
+			},
+			"coord": "3743106036130323098097120681749450326023",
+			"seed": "0xa641f56c88ec526cae63052a626b8c5d0c181574ea95348418c72ca7614a4eb4",
+			"tokenId": 259,
+			"yonder": 17,
+			"name": "Chamber #259",
+			"chapter": 1,
+			"terrain": 3,
+			"entryDir": 2,
+			"gemPos": 186,
+			"gemType": 1,
+			"coins": 50,
+			"worth": 150,
+			"doors": [
+				8,
+				143,
+				112,
+				247
+			],
+			"locks": [
+				true,
+				true,
+				false,
+				true
+			],
+			"locksCount": 3
+		},
+		"1020847100762815390390123822295304634377": {
+			"compass": {
+				"east": 3,
+				"south": 9
+			},
+			"coord": "1020847100762815390390123822295304634377",
+			"seed": "0xe0da2e8218784e8018ff0c76dee856d2bd5c7e07a495e1ce4b5b5236894f53d8",
+			"tokenId": 260,
+			"yonder": 13,
+			"name": "Chamber #260",
+			"chapter": 1,
+			"terrain": 1,
+			"entryDir": 0,
+			"gemPos": 186,
+			"gemType": 3,
+			"coins": 70,
+			"worth": 270,
+			"doors": [
+				9,
+				175,
+				112,
+				249
+			],
+			"locks": [
+				false,
+				false,
+				true,
+				true
+			],
+			"locksCount": 2
+		},
+		"3062541302288446171170371466885913903106": {
+			"compass": {
+				"east": 9,
+				"south": 2
+			},
+			"coord": "3062541302288446171170371466885913903106",
+			"seed": "0xc7c14b665527b104881c2ed3c427a45046d924b5632fd618416e79c020a1197f",
+			"tokenId": 261,
+			"yonder": 10,
+			"name": "Chamber #261",
+			"chapter": 1,
+			"terrain": 2,
+			"entryDir": 2,
+			"gemPos": 152,
+			"gemType": 0,
+			"coins": 20,
+			"worth": 70,
+			"doors": [
+				0,
+				95,
+				144,
+				251
+			],
+			"locks": [
+				false,
+				true,
+				false,
+				false
+			],
+			"locksCount": 1
+		},
+		"3402823669209384634633746074317682114565": {
+			"compass": {
+				"east": 10,
+				"south": 5
+			},
+			"coord": "3402823669209384634633746074317682114565",
+			"seed": "0x671862ee2267e1a42b30dde583a52e139da8099b3e8a823bbb723701dcff6500",
+			"tokenId": 262,
+			"yonder": 16,
+			"name": "Chamber #262",
+			"chapter": 1,
+			"terrain": 4,
+			"entryDir": 3,
+			"gemPos": 137,
+			"gemType": 0,
+			"coins": 10,
+			"worth": 60,
+			"doors": [
+				4,
+				175,
+				128,
+				250
+			],
+			"locks": [
+				true,
+				false,
+				false,
+				false
+			],
+			"locksCount": 1
+		},
+		"3743106036130323098097120681749450326021": {
+			"compass": {
+				"east": 11,
+				"south": 5
+			},
+			"coord": "3743106036130323098097120681749450326021",
+			"seed": "0xa7c326aeacafa336ecc78cb1caab66cc56afd0a1fc13b451d578eae4049507e4",
+			"tokenId": 263,
+			"yonder": 17,
+			"name": "Chamber #263",
+			"chapter": 1,
+			"terrain": 1,
+			"entryDir": 2,
+			"gemPos": 171,
+			"gemType": 1,
+			"coins": 240,
+			"worth": 340,
+			"doors": [
+				8,
+				79,
+				160,
+				250
+			],
+			"locks": [
+				true,
+				true,
+				false,
+				true
+			],
+			"locksCount": 3
+		},
+		"2722258935367507707706996859454145691657": {
+			"compass": {
+				"east": 8,
+				"south": 9
+			},
+			"coord": "2722258935367507707706996859454145691657",
+			"seed": "0xdea3f408544c0fbef4d0165063dc6cefd36f77a575d510723c95fc103c3187f8",
+			"tokenId": 264,
+			"yonder": 18,
+			"name": "Chamber #264",
+			"chapter": 1,
+			"terrain": 2,
+			"entryDir": 2,
+			"gemPos": 37,
+			"gemType": 0,
+			"coins": 130,
+			"worth": 180,
+			"doors": [
+				0,
+				79,
+				176,
+				251
+			],
+			"locks": [
+				false,
+				false,
+				false,
+				false
+			],
+			"locksCount": 0
+		},
+		"2722258935367507707706996859454145691658": {
+			"compass": {
+				"east": 8,
+				"south": 10
+			},
+			"coord": "2722258935367507707706996859454145691658",
+			"seed": "0x12d787e13a268ef64163bf1d8d6c527a1f09facb57421faa091d29d67cde3cb0",
+			"tokenId": 265,
+			"yonder": 19,
+			"name": "Chamber #265",
+			"chapter": 1,
+			"terrain": 2,
+			"entryDir": 0,
+			"gemPos": 71,
+			"gemType": 0,
+			"coins": 60,
+			"worth": 110,
+			"doors": [
+				11,
+				127,
+				80,
+				247
+			],
+			"locks": [
+				false,
+				true,
+				false,
+				true
+			],
+			"locksCount": 2
+		},
+		"3062541302288446171170371466885913903113": {
+			"compass": {
+				"east": 9,
+				"south": 9
+			},
+			"coord": "3062541302288446171170371466885913903113",
+			"seed": "0xbc5c9341aa2fe288a4cd5f487bca119534f8e0c3adca4e2e9d11ed878a63d6d5",
+			"tokenId": 266,
+			"yonder": 17,
+			"name": "Chamber #266",
+			"chapter": 1,
+			"terrain": 3,
+			"entryDir": 0,
+			"gemPos": 188,
+			"gemType": 0,
+			"coins": 20,
+			"worth": 70,
+			"doors": [
+				7,
+				159,
+				64,
+				249
+			],
+			"locks": [
+				false,
+				true,
+				false,
+				true
+			],
+			"locksCount": 2
+		},
+		"3062541302288446171170371466885913903107": {
+			"compass": {
+				"east": 9,
+				"south": 3
+			},
+			"coord": "3062541302288446171170371466885913903107",
+			"seed": "0xd0dd996c6dc137665686ae4df04230ea9f7878c90c6740bffff13acfe56732ba",
+			"tokenId": 267,
+			"yonder": 11,
+			"name": "Chamber #267",
+			"chapter": 1,
+			"terrain": 2,
+			"entryDir": 0,
+			"gemPos": 60,
+			"gemType": 0,
+			"coins": 30,
+			"worth": 80,
+			"doors": [
+				11,
+				127,
+				128,
+				250
+			],
+			"locks": [
+				false,
+				true,
+				false,
+				false
+			],
+			"locksCount": 1
+		},
+		"147573952589676412929": {
+			"compass": {
+				"west": 8,
+				"south": 1
+			},
+			"coord": "147573952589676412929",
+			"seed": "0xce095c758040b5e2869d23787a30b25cf04a9c895a481f51247e383c28d3bd2b",
+			"tokenId": 268,
+			"yonder": 10,
+			"name": "Chamber #268",
+			"chapter": 1,
+			"terrain": 4,
+			"entryDir": 1,
+			"gemPos": 179,
+			"gemType": 4,
+			"coins": 30,
+			"worth": 330,
+			"doors": [
+				7,
+				191,
+				144,
+				246
+			],
+			"locks": [
+				true,
+				false,
+				true,
+				false
+			],
+			"locksCount": 2
+		},
+		"147573952589676412932": {
+			"compass": {
+				"west": 8,
+				"south": 4
+			},
+			"coord": "147573952589676412932",
+			"seed": "0x467798f505eeddfccb758e70055e1bf31a161974c8f744acfdcdaca7dee02026",
+			"tokenId": 269,
+			"yonder": 15,
+			"name": "Chamber #269",
+			"chapter": 1,
+			"terrain": 3,
+			"entryDir": 0,
+			"gemPos": 116,
+			"gemType": 1,
+			"coins": 250,
+			"worth": 350,
+			"doors": [
+				11,
+				127,
+				64,
+				246
+			],
+			"locks": [
+				false,
+				false,
+				false,
+				true
+			],
+			"locksCount": 1
+		},
+		"166020696663385964548": {
+			"compass": {
+				"west": 9,
+				"south": 4
+			},
+			"coord": "166020696663385964548",
+			"seed": "0xce26e71af5c0fb2fd69771f8a7730f5cf4c539a69021c589ee69e06f7060ac46",
+			"tokenId": 270,
+			"yonder": 16,
+			"name": "Chamber #270",
+			"chapter": 1,
+			"terrain": 2,
+			"entryDir": 1,
+			"gemPos": 148,
+			"gemType": 2,
+			"coins": 40,
+			"worth": 190,
+			"doors": [
+				10,
+				79,
+				128,
+				248
+			],
+			"locks": [
+				false,
+				false,
+				false,
+				true
+			],
+			"locksCount": 1
+		},
+		"166020696663385964547": {
+			"compass": {
+				"west": 9,
+				"south": 3
+			},
+			"coord": "166020696663385964547",
+			"seed": "0x63f436551fafa475c306d84482e634003990842d9f5c3ef549475cdd06343c4e",
+			"tokenId": 271,
+			"yonder": 17,
+			"name": "Chamber #271",
+			"chapter": 1,
+			"terrain": 2,
+			"entryDir": 3,
+			"gemPos": 57,
+			"gemType": 1,
+			"coins": 30,
+			"worth": 130,
+			"doors": [
+				0,
+				79,
+				128,
+				250
+			],
+			"locks": [
+				false,
+				false,
+				true,
+				false
+			],
+			"locksCount": 1
+		},
+		"184467440737095516164": {
+			"compass": {
+				"west": 10,
+				"south": 4
+			},
+			"coord": "184467440737095516164",
+			"seed": "0xef75625895489205c2064b9a4d9b93b1f0bc1a3bf650d1d6284e5eb39af111d7",
+			"tokenId": 272,
+			"yonder": 17,
+			"name": "Chamber #272",
+			"chapter": 1,
+			"terrain": 2,
+			"entryDir": 1,
+			"gemPos": 137,
+			"gemType": 3,
+			"coins": 30,
+			"worth": 230,
+			"doors": [
+				11,
+				143,
+				80,
+				249
+			],
+			"locks": [
+				true,
+				false,
+				true,
+				true
+			],
+			"locksCount": 3
+		},
+		"147573952589676412930": {
+			"compass": {
+				"west": 8,
+				"south": 2
+			},
+			"coord": "147573952589676412930",
+			"seed": "0x48124cdcf64fd7493770621fe9017aaa0862d9a4307ba3abe46012a3ccf377b0",
+			"tokenId": 273,
+			"yonder": 15,
+			"name": "Chamber #273",
+			"chapter": 1,
+			"terrain": 4,
+			"entryDir": 3,
+			"gemPos": 53,
+			"gemType": 1,
+			"coins": 150,
+			"worth": 250,
+			"doors": [
+				6,
+				111,
+				176,
+				247
+			],
+			"locks": [
+				false,
+				false,
+				false,
+				false
+			],
+			"locksCount": 0
+		},
+		"166020696663385964546": {
+			"compass": {
+				"west": 9,
+				"south": 2
+			},
+			"coord": "166020696663385964546",
+			"seed": "0x2fbfd172abbfe072a132bff439ba1d82fc333cc5d53d6b81046c399ca1e9a37b",
+			"tokenId": 274,
+			"yonder": 16,
+			"name": "Chamber #274",
+			"chapter": 1,
+			"terrain": 4,
+			"entryDir": 1,
+			"gemPos": 136,
+			"gemType": 1,
+			"coins": 240,
+			"worth": 340,
+			"doors": [
+				7,
+				191,
+				112,
+				0
+			],
+			"locks": [
+				true,
+				false,
+				true,
+				false
+			],
+			"locksCount": 2
 		}
 	}
 }

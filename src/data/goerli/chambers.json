@@ -140,6 +140,349 @@
 				"east": 7
 			},
 			"coord": "18831305206160042293889344838069568492550688585414481018880"
+		},
+		"21": {
+			"compass": {
+				"north": 2,
+				"east": 7
+			},
+			"coord": "12554203470773361530053555414861902076448333140950446505984"
+		},
+		"22": {
+			"compass": {
+				"north": 2,
+				"east": 8
+			},
+			"coord": "12554203470773361530393837781782840539911707748382214717440"
+		},
+		"23": {
+			"compass": {
+				"north": 3,
+				"east": 8
+			},
+			"coord": "18831305206160042294229627204990506956014063192846249230336"
+		},
+		"24": {
+			"compass": {
+				"north": 4,
+				"east": 7
+			},
+			"coord": "25108406941546723057725134261277234908653044029878515531776"
+		},
+		"25": {
+			"compass": {
+				"north": 2,
+				"east": 6
+			},
+			"coord": "12554203470773361529713273047940963612984958533518678294528"
+		},
+		"26": {
+			"compass": {
+				"north": 5,
+				"east": 7
+			},
+			"coord": "31385508676933403821560923684484901324755399474342550044672"
+		},
+		"27": {
+			"compass": {
+				"north": 1,
+				"east": 7
+			},
+			"coord": "6277101735386680766217765991654235660345977696486411993088"
+		},
+		"28": {
+			"compass": {
+				"north": 5,
+				"east": 6
+			},
+			"coord": "31385508676933403821220641317563962861292024866910781833216"
+		},
+		"29": {
+			"compass": {
+				"east": 5,
+				"south": 1
+			},
+			"coord": "1701411834604692317316873037158841057281"
+		},
+		"30": {
+			"compass": {
+				"east": 5,
+				"south": 2
+			},
+			"coord": "1701411834604692317316873037158841057282"
+		},
+		"31": {
+			"compass": {
+				"east": 5,
+				"south": 3
+			},
+			"coord": "1701411834604692317316873037158841057283"
+		},
+		"32": {
+			"compass": {
+				"east": 6,
+				"south": 3
+			},
+			"coord": "2041694201525630780780247644590609268739"
+		},
+		"33": {
+			"compass": {
+				"east": 7,
+				"south": 3
+			},
+			"coord": "2381976568446569244243622252022377480195"
+		},
+		"34": {
+			"compass": {
+				"east": 8,
+				"south": 3
+			},
+			"coord": "2722258935367507707706996859454145691651"
+		},
+		"35": {
+			"compass": {
+				"east": 9,
+				"south": 3
+			},
+			"coord": "3062541302288446171170371466885913903107"
+		},
+		"36": {
+			"compass": {
+				"east": 10,
+				"south": 3
+			},
+			"coord": "3402823669209384634633746074317682114563"
+		},
+		"37": {
+			"compass": {
+				"east": 8,
+				"south": 2
+			},
+			"coord": "2722258935367507707706996859454145691650"
+		},
+		"38": {
+			"compass": {
+				"east": 9,
+				"south": 2
+			},
+			"coord": "3062541302288446171170371466885913903106"
+		},
+		"39": {
+			"compass": {
+				"east": 10,
+				"south": 2
+			},
+			"coord": "3402823669209384634633746074317682114562"
+		},
+		"40": {
+			"compass": {
+				"east": 11,
+				"south": 3
+			},
+			"coord": "3743106036130323098097120681749450326019"
+		},
+		"41": {
+			"compass": {
+				"east": 10,
+				"south": 4
+			},
+			"coord": "3402823669209384634633746074317682114564"
+		},
+		"42": {
+			"compass": {
+				"east": 6,
+				"south": 1
+			},
+			"coord": "2041694201525630780780247644590609268737"
+		},
+		"43": {
+			"compass": {
+				"east": 7,
+				"south": 1
+			},
+			"coord": "2381976568446569244243622252022377480193"
+		},
+		"44": {
+			"compass": {
+				"east": 8,
+				"south": 1
+			},
+			"coord": "2722258935367507707706996859454145691649"
+		},
+		"45": {
+			"compass": {
+				"east": 9,
+				"south": 1
+			},
+			"coord": "3062541302288446171170371466885913903105"
+		},
+		"46": {
+			"compass": {
+				"east": 10,
+				"south": 1
+			},
+			"coord": "3402823669209384634633746074317682114561"
+		},
+		"47": {
+			"compass": {
+				"north": 1,
+				"east": 9
+			},
+			"coord": "6277101735386680766898330725496112587272726911349948416000"
+		},
+		"48": {
+			"compass": {
+				"north": 2,
+				"east": 9
+			},
+			"coord": "12554203470773361530734120148703779003375082355813982928896"
+		},
+		"49": {
+			"compass": {
+				"west": 1,
+				"south": 2
+			},
+			"coord": "18446744073709551618"
+		},
+		"50": {
+			"compass": {
+				"east": 1,
+				"south": 2
+			},
+			"coord": "340282366920938463463374607431768211458"
+		},
+		"51": {
+			"compass": {
+				"west": 1,
+				"south": 3
+			},
+			"coord": "18446744073709551619"
+		},
+		"52": {
+			"compass": {
+				"north": 6,
+				"east": 6
+			},
+			"coord": "37662610412320084585056430740771629277394380311374816346112"
+		},
+		"53": {
+			"compass": {
+				"west": 2,
+				"south": 1
+			},
+			"coord": "36893488147419103233"
+		},
+		"54": {
+			"compass": {
+				"west": 2,
+				"south": 2
+			},
+			"coord": "36893488147419103234"
+		},
+		"55": {
+			"compass": {
+				"west": 2,
+				"south": 3
+			},
+			"coord": "36893488147419103235"
+		},
+		"56": {
+			"compass": {
+				"east": 4,
+				"south": 1
+			},
+			"coord": "1361129467683753853853498429727072845825"
+		},
+		"57": {
+			"compass": {
+				"east": 4,
+				"south": 2
+			},
+			"coord": "1361129467683753853853498429727072845826"
+		},
+		"58": {
+			"compass": {
+				"east": 4,
+				"south": 3
+			},
+			"coord": "1361129467683753853853498429727072845827"
+		},
+		"59": {
+			"compass": {
+				"east": 4,
+				"south": 4
+			},
+			"coord": "1361129467683753853853498429727072845828"
+		},
+		"60": {
+			"compass": {
+				"east": 3,
+				"south": 3
+			},
+			"coord": "1020847100762815390390123822295304634371"
+		},
+		"61": {
+			"compass": {
+				"east": 4,
+				"south": 5
+			},
+			"coord": "1361129467683753853853498429727072845829"
+		},
+		"62": {
+			"compass": {
+				"east": 5,
+				"south": 5
+			},
+			"coord": "1701411834604692317316873037158841057285"
+		},
+		"63": {
+			"compass": {
+				"east": 6,
+				"south": 5
+			},
+			"coord": "2041694201525630780780247644590609268741"
+		},
+		"64": {
+			"compass": {
+				"east": 5,
+				"south": 6
+			},
+			"coord": "1701411834604692317316873037158841057286"
+		},
+		"65": {
+			"compass": {
+				"east": 5,
+				"south": 4
+			},
+			"coord": "1701411834604692317316873037158841057284"
+		},
+		"66": {
+			"compass": {
+				"east": 7,
+				"south": 5
+			},
+			"coord": "2381976568446569244243622252022377480197"
+		},
+		"67": {
+			"compass": {
+				"east": 7,
+				"south": 6
+			},
+			"coord": "2381976568446569244243622252022377480198"
+		},
+		"68": {
+			"compass": {
+				"east": 7,
+				"south": 7
+			},
+			"coord": "2381976568446569244243622252022377480199"
+		},
+		"69": {
+			"compass": {
+				"east": 8,
+				"south": 7
+			},
+			"coord": "2722258935367507707706996859454145691655"
 		}
 	},
 	"chamberData": {
@@ -169,10 +512,10 @@
 			"locks": [
 				false,
 				false,
-				true,
-				true
+				false,
+				false
 			],
-			"locksCount": 2
+			"locksCount": 0
 		},
 		"6277101735386680763835789423207666416120802188537744064512": {
 			"compass": {
@@ -263,9 +606,9 @@
 				false,
 				true,
 				false,
-				true
+				false
 			],
-			"locksCount": 2
+			"locksCount": 1
 		},
 		"6277101735386680764516354157049543343029104659327570935808": {
 			"compass": {
@@ -354,11 +697,11 @@
 			],
 			"locks": [
 				false,
-				true,
+				false,
 				true,
 				true
 			],
-			"locksCount": 3
+			"locksCount": 2
 		},
 		"6277101735386680765196918890891420269955853874191107358720": {
 			"compass": {
@@ -387,9 +730,9 @@
 				false,
 				false,
 				false,
-				true
+				false
 			],
-			"locksCount": 1
+			"locksCount": 0
 		},
 		"12554203470773361528692425947178148222594834711223373660160": {
 			"compass": {
@@ -542,9 +885,9 @@
 				true,
 				true,
 				false,
-				true
+				false
 			],
-			"locksCount": 3
+			"locksCount": 2
 		},
 		"12554203470773361528352143580257209759131460103791605448704": {
 			"compass": {
@@ -697,9 +1040,9 @@
 				false,
 				false,
 				false,
-				true
+				false
 			],
-			"locksCount": 1
+			"locksCount": 0
 		},
 		"25108406941546723057384851894356296445189669422446747320320": {
 			"compass": {
@@ -725,12 +1068,12 @@
 				249
 			],
 			"locks": [
-				true,
-				true,
+				false,
+				false,
 				true,
 				false
 			],
-			"locksCount": 3
+			"locksCount": 1
 		},
 		"18831305206160042293889344838069568492550688585414481018880": {
 			"compass": {
@@ -754,6 +1097,1525 @@
 				175,
 				176,
 				249
+			],
+			"locks": [
+				false,
+				false,
+				false,
+				false
+			],
+			"locksCount": 0
+		},
+		"12554203470773361530053555414861902076448333140950446505984": {
+			"compass": {
+				"north": 2,
+				"east": 7
+			},
+			"coord": "12554203470773361530053555414861902076448333140950446505984",
+			"seed": "0xb1702c8048dfc80e75d6b250a95c956cf031a7c9f7155ca2f08281851107b61a",
+			"tokenId": 21,
+			"yonder": 10,
+			"name": "Chamber #21",
+			"chapter": 1,
+			"terrain": 3,
+			"entryDir": 0,
+			"gemPos": 202,
+			"gemType": 0,
+			"coins": 120,
+			"worth": 170,
+			"doors": [
+				9,
+				127,
+				160,
+				245
+			],
+			"locks": [
+				false,
+				false,
+				false,
+				false
+			],
+			"locksCount": 0
+		},
+		"12554203470773361530393837781782840539911707748382214717440": {
+			"compass": {
+				"north": 2,
+				"east": 8
+			},
+			"coord": "12554203470773361530393837781782840539911707748382214717440",
+			"seed": "0xd9b42710c1c4e2af0a322a7acee8713109b24ba5fa58834800daa42fae79e665",
+			"tokenId": 22,
+			"yonder": 11,
+			"name": "Chamber #22",
+			"chapter": 1,
+			"terrain": 3,
+			"entryDir": 2,
+			"gemPos": 125,
+			"gemType": 2,
+			"coins": 40,
+			"worth": 190,
+			"doors": [
+				9,
+				175,
+				112,
+				250
+			],
+			"locks": [
+				false,
+				false,
+				false,
+				true
+			],
+			"locksCount": 1
+		},
+		"18831305206160042294229627204990506956014063192846249230336": {
+			"compass": {
+				"north": 3,
+				"east": 8
+			},
+			"coord": "18831305206160042294229627204990506956014063192846249230336",
+			"seed": "0x6a3703ad67f5bf3d543f5a3c3d35f61852619e4d151d55b9a621310aa0e0f49c",
+			"tokenId": 23,
+			"yonder": 12,
+			"name": "Chamber #23",
+			"chapter": 1,
+			"terrain": 3,
+			"entryDir": 3,
+			"gemPos": 200,
+			"gemType": 0,
+			"coins": 180,
+			"worth": 230,
+			"doors": [
+				8,
+				191,
+				160,
+				249
+			],
+			"locks": [
+				true,
+				true,
+				false,
+				false
+			],
+			"locksCount": 2
+		},
+		"25108406941546723057725134261277234908653044029878515531776": {
+			"compass": {
+				"north": 4,
+				"east": 7
+			},
+			"coord": "25108406941546723057725134261277234908653044029878515531776",
+			"seed": "0xde57eb1d87b297864029fb8123fbf223fddc35ec4d76be94fbaa4bcc8f8b82e7",
+			"tokenId": 24,
+			"yonder": 10,
+			"name": "Chamber #24",
+			"chapter": 1,
+			"terrain": 2,
+			"entryDir": 2,
+			"gemPos": 194,
+			"gemType": 0,
+			"coins": 30,
+			"worth": 80,
+			"doors": [
+				11,
+				79,
+				128,
+				245
+			],
+			"locks": [
+				false,
+				true,
+				false,
+				false
+			],
+			"locksCount": 1
+		},
+		"12554203470773361529713273047940963612984958533518678294528": {
+			"compass": {
+				"north": 2,
+				"east": 6
+			},
+			"coord": "12554203470773361529713273047940963612984958533518678294528",
+			"seed": "0x3067796776e7ec7e747a2304640629d987a6b82795281d522c0c9c27616f0ab3",
+			"tokenId": 25,
+			"yonder": 9,
+			"name": "Chamber #25",
+			"chapter": 1,
+			"terrain": 2,
+			"entryDir": 0,
+			"gemPos": 124,
+			"gemType": 1,
+			"coins": 320,
+			"worth": 420,
+			"doors": [
+				11,
+				175,
+				96,
+				247
+			],
+			"locks": [
+				false,
+				false,
+				true,
+				true
+			],
+			"locksCount": 2
+		},
+		"31385508676933403821560923684484901324755399474342550044672": {
+			"compass": {
+				"north": 5,
+				"east": 7
+			},
+			"coord": "31385508676933403821560923684484901324755399474342550044672",
+			"seed": "0x1ee6f6cfd0ab4d42135c98cb831c506e50a4112f062f30fa59771282a6d6353c",
+			"tokenId": 26,
+			"yonder": 11,
+			"name": "Chamber #26",
+			"chapter": 1,
+			"terrain": 2,
+			"entryDir": 3,
+			"gemPos": 115,
+			"gemType": 0,
+			"coins": 190,
+			"worth": 240,
+			"doors": [
+				8,
+				127,
+				144,
+				251
+			],
+			"locks": [
+				true,
+				true,
+				false,
+				false
+			],
+			"locksCount": 2
+		},
+		"6277101735386680766217765991654235660345977696486411993088": {
+			"compass": {
+				"north": 1,
+				"east": 7
+			},
+			"coord": "6277101735386680766217765991654235660345977696486411993088",
+			"seed": "0x150e7d9bc459c3d106e58baf8daa0994486de668f8b1446e7b1a8403b53a0d84",
+			"tokenId": 27,
+			"yonder": 11,
+			"name": "Chamber #27",
+			"chapter": 1,
+			"terrain": 4,
+			"entryDir": 0,
+			"gemPos": 57,
+			"gemType": 0,
+			"coins": 10,
+			"worth": 60,
+			"doors": [
+				5,
+				79,
+				144,
+				244
+			],
+			"locks": [
+				false,
+				true,
+				true,
+				false
+			],
+			"locksCount": 2
+		},
+		"31385508676933403821220641317563962861292024866910781833216": {
+			"compass": {
+				"north": 5,
+				"east": 6
+			},
+			"coord": "31385508676933403821220641317563962861292024866910781833216",
+			"seed": "0x803db2f19bd71a5b401596e040a8a79ab871ac26c73fbdf74fd6940efb60fe7d",
+			"tokenId": 28,
+			"yonder": 10,
+			"name": "Chamber #28",
+			"chapter": 1,
+			"terrain": 1,
+			"entryDir": 3,
+			"gemPos": 188,
+			"gemType": 0,
+			"coins": 140,
+			"worth": 190,
+			"doors": [
+				9,
+				159,
+				160,
+				250
+			],
+			"locks": [
+				false,
+				false,
+				true,
+				false
+			],
+			"locksCount": 1
+		},
+		"1701411834604692317316873037158841057281": {
+			"compass": {
+				"east": 5,
+				"south": 1
+			},
+			"coord": "1701411834604692317316873037158841057281",
+			"seed": "0xeb78d218f42aea01903ea09db1e3254dc357423cfb40c0a6776aea9057206387",
+			"tokenId": 29,
+			"yonder": 6,
+			"name": "Chamber #29",
+			"chapter": 1,
+			"terrain": 3,
+			"entryDir": 0,
+			"gemPos": 184,
+			"gemType": 0,
+			"coins": 60,
+			"worth": 110,
+			"doors": [
+				9,
+				175,
+				112,
+				244
+			],
+			"locks": [
+				false,
+				false,
+				false,
+				false
+			],
+			"locksCount": 0
+		},
+		"1701411834604692317316873037158841057282": {
+			"compass": {
+				"east": 5,
+				"south": 2
+			},
+			"coord": "1701411834604692317316873037158841057282",
+			"seed": "0x0924154479256d9a8e1f48d5a20e2f164a13dee98f8ef43e3af277f4d6fbe375",
+			"tokenId": 30,
+			"yonder": 7,
+			"name": "Chamber #30",
+			"chapter": 1,
+			"terrain": 3,
+			"entryDir": 0,
+			"gemPos": 201,
+			"gemType": 3,
+			"coins": 210,
+			"worth": 410,
+			"doors": [
+				4,
+				175,
+				0,
+				251
+			],
+			"locks": [
+				false,
+				true,
+				false,
+				false
+			],
+			"locksCount": 1
+		},
+		"1701411834604692317316873037158841057283": {
+			"compass": {
+				"east": 5,
+				"south": 3
+			},
+			"coord": "1701411834604692317316873037158841057283",
+			"seed": "0x518afdfe1f393e5fcfed21c9aa7a3f208b2a41cc1b3d20bfb4728dd57d711e9c",
+			"tokenId": 31,
+			"yonder": 8,
+			"name": "Chamber #31",
+			"chapter": 1,
+			"terrain": 2,
+			"entryDir": 0,
+			"gemPos": 105,
+			"gemType": 0,
+			"coins": 80,
+			"worth": 130,
+			"doors": [
+				11,
+				95,
+				160,
+				245
+			],
+			"locks": [
+				false,
+				false,
+				false,
+				false
+			],
+			"locksCount": 0
+		},
+		"2041694201525630780780247644590609268739": {
+			"compass": {
+				"east": 6,
+				"south": 3
+			},
+			"coord": "2041694201525630780780247644590609268739",
+			"seed": "0x4fd3e50a7e4e3b0762af0becb268e2c7ce42379a130b9cf1d07c957920d38943",
+			"tokenId": 32,
+			"yonder": 9,
+			"name": "Chamber #32",
+			"chapter": 1,
+			"terrain": 2,
+			"entryDir": 2,
+			"gemPos": 71,
+			"gemType": 3,
+			"coins": 260,
+			"worth": 460,
+			"doors": [
+				7,
+				79,
+				80,
+				248
+			],
+			"locks": [
+				true,
+				false,
+				false,
+				true
+			],
+			"locksCount": 2
+		},
+		"2381976568446569244243622252022377480195": {
+			"compass": {
+				"east": 7,
+				"south": 3
+			},
+			"coord": "2381976568446569244243622252022377480195",
+			"seed": "0x85b408ab9cf6c849eb44ab45a6d77cf3f3661d3f7a35c557e928c44ccd92e498",
+			"tokenId": 33,
+			"yonder": 10,
+			"name": "Chamber #33",
+			"chapter": 1,
+			"terrain": 2,
+			"entryDir": 2,
+			"gemPos": 43,
+			"gemType": 0,
+			"coins": 370,
+			"worth": 420,
+			"doors": [
+				4,
+				175,
+				64,
+				245
+			],
+			"locks": [
+				true,
+				false,
+				false,
+				true
+			],
+			"locksCount": 2
+		},
+		"2722258935367507707706996859454145691651": {
+			"compass": {
+				"east": 8,
+				"south": 3
+			},
+			"coord": "2722258935367507707706996859454145691651",
+			"seed": "0x4e73d664cb94c368a53feec38520e1be02db32fbd951c510e32818bbdff34257",
+			"tokenId": 34,
+			"yonder": 11,
+			"name": "Chamber #34",
+			"chapter": 1,
+			"terrain": 1,
+			"entryDir": 2,
+			"gemPos": 137,
+			"gemType": 4,
+			"coins": 210,
+			"worth": 510,
+			"doors": [
+				11,
+				143,
+				160,
+				249
+			],
+			"locks": [
+				false,
+				false,
+				false,
+				true
+			],
+			"locksCount": 1
+		},
+		"3062541302288446171170371466885913903107": {
+			"compass": {
+				"east": 9,
+				"south": 3
+			},
+			"coord": "3062541302288446171170371466885913903107",
+			"seed": "0x44370ae89ec79fd8689610087a70980e2762af4760e39b5ffbc468dbd496a3f0",
+			"tokenId": 35,
+			"yonder": 12,
+			"name": "Chamber #35",
+			"chapter": 1,
+			"terrain": 1,
+			"entryDir": 2,
+			"gemPos": 215,
+			"gemType": 1,
+			"coins": 10,
+			"worth": 110,
+			"doors": [
+				4,
+				111,
+				128,
+				251
+			],
+			"locks": [
+				false,
+				false,
+				false,
+				true
+			],
+			"locksCount": 1
+		},
+		"3402823669209384634633746074317682114563": {
+			"compass": {
+				"east": 10,
+				"south": 3
+			},
+			"coord": "3402823669209384634633746074317682114563",
+			"seed": "0x051489065bec57694556b440cdf737883da046d6ef7e59f8ecc0e0da3d3d1648",
+			"tokenId": 36,
+			"yonder": 13,
+			"name": "Chamber #36",
+			"chapter": 1,
+			"terrain": 2,
+			"entryDir": 2,
+			"gemPos": 37,
+			"gemType": 1,
+			"coins": 10,
+			"worth": 110,
+			"doors": [
+				0,
+				95,
+				96,
+				248
+			],
+			"locks": [
+				false,
+				false,
+				false,
+				false
+			],
+			"locksCount": 0
+		},
+		"2722258935367507707706996859454145691650": {
+			"compass": {
+				"east": 8,
+				"south": 2
+			},
+			"coord": "2722258935367507707706996859454145691650",
+			"seed": "0x70dd64a9bc55e29a3721ae6ccea67696ab42b249fb143b4905904b862742a304",
+			"tokenId": 37,
+			"yonder": 12,
+			"name": "Chamber #37",
+			"chapter": 1,
+			"terrain": 1,
+			"entryDir": 3,
+			"gemPos": 122,
+			"gemType": 0,
+			"coins": 530,
+			"worth": 580,
+			"doors": [
+				8,
+				111,
+				112,
+				251
+			],
+			"locks": [
+				false,
+				false,
+				true,
+				false
+			],
+			"locksCount": 1
+		},
+		"3062541302288446171170371466885913903106": {
+			"compass": {
+				"east": 9,
+				"south": 2
+			},
+			"coord": "3062541302288446171170371466885913903106",
+			"seed": "0xf2ccc285ab1aacc7da06d8e26cf9ed80b3d8cce60d24c4e2b679262900904233",
+			"tokenId": 38,
+			"yonder": 13,
+			"name": "Chamber #38",
+			"chapter": 1,
+			"terrain": 1,
+			"entryDir": 3,
+			"gemPos": 195,
+			"gemType": 2,
+			"coins": 60,
+			"worth": 210,
+			"doors": [
+				0,
+				143,
+				96,
+				244
+			],
+			"locks": [
+				false,
+				false,
+				false,
+				false
+			],
+			"locksCount": 0
+		},
+		"3402823669209384634633746074317682114562": {
+			"compass": {
+				"east": 10,
+				"south": 2
+			},
+			"coord": "3402823669209384634633746074317682114562",
+			"seed": "0xf70a11f24a7a83eb205ad50e8a33eae14edd750a0bd2b5f8ebf31256b2a8ca02",
+			"tokenId": 39,
+			"yonder": 14,
+			"name": "Chamber #39",
+			"chapter": 1,
+			"terrain": 4,
+			"entryDir": 2,
+			"gemPos": 152,
+			"gemType": 1,
+			"coins": 30,
+			"worth": 130,
+			"doors": [
+				6,
+				143,
+				128,
+				0
+			],
+			"locks": [
+				false,
+				true,
+				false,
+				false
+			],
+			"locksCount": 1
+		},
+		"3743106036130323098097120681749450326019": {
+			"compass": {
+				"east": 11,
+				"south": 3
+			},
+			"coord": "3743106036130323098097120681749450326019",
+			"seed": "0x2415b3e300f1059e54ba6e3a50f70179b7e1d5cef4f858c3e505633ea54f5aac",
+			"tokenId": 40,
+			"yonder": 14,
+			"name": "Chamber #40",
+			"chapter": 1,
+			"terrain": 2,
+			"entryDir": 2,
+			"gemPos": 58,
+			"gemType": 5,
+			"coins": 200,
+			"worth": 700,
+			"doors": [
+				8,
+				159,
+				80,
+				246
+			],
+			"locks": [
+				true,
+				true,
+				false,
+				true
+			],
+			"locksCount": 3
+		},
+		"3402823669209384634633746074317682114564": {
+			"compass": {
+				"east": 10,
+				"south": 4
+			},
+			"coord": "3402823669209384634633746074317682114564",
+			"seed": "0x7673a1dbe992189d88fd8a7c228b5b8cd2319b0f6788645a1e670e5263ed319c",
+			"tokenId": 41,
+			"yonder": 14,
+			"name": "Chamber #41",
+			"chapter": 1,
+			"terrain": 2,
+			"entryDir": 0,
+			"gemPos": 180,
+			"gemType": 0,
+			"coins": 190,
+			"worth": 240,
+			"doors": [
+				8,
+				127,
+				80,
+				245
+			],
+			"locks": [
+				false,
+				true,
+				true,
+				true
+			],
+			"locksCount": 3
+		},
+		"2041694201525630780780247644590609268737": {
+			"compass": {
+				"east": 6,
+				"south": 1
+			},
+			"coord": "2041694201525630780780247644590609268737",
+			"seed": "0x73fda20a230f085fe9e3a23f89432b9a9ac64ceecfe5a6067054adf51ca90a20",
+			"tokenId": 42,
+			"yonder": 7,
+			"name": "Chamber #42",
+			"chapter": 1,
+			"terrain": 3,
+			"entryDir": 2,
+			"gemPos": 152,
+			"gemType": 3,
+			"coins": 200,
+			"worth": 400,
+			"doors": [
+				4,
+				79,
+				160,
+				246
+			],
+			"locks": [
+				true,
+				false,
+				false,
+				true
+			],
+			"locksCount": 2
+		},
+		"2381976568446569244243622252022377480193": {
+			"compass": {
+				"east": 7,
+				"south": 1
+			},
+			"coord": "2381976568446569244243622252022377480193",
+			"seed": "0x3d6c9eab8ebe144603d1c2c18904a9488f0afaeb81d21a48e2c1da21ca926bb4",
+			"tokenId": 43,
+			"yonder": 8,
+			"name": "Chamber #43",
+			"chapter": 1,
+			"terrain": 4,
+			"entryDir": 2,
+			"gemPos": 215,
+			"gemType": 1,
+			"coins": 230,
+			"worth": 330,
+			"doors": [
+				4,
+				175,
+				64,
+				247
+			],
+			"locks": [
+				false,
+				false,
+				false,
+				true
+			],
+			"locksCount": 1
+		},
+		"2722258935367507707706996859454145691649": {
+			"compass": {
+				"east": 8,
+				"south": 1
+			},
+			"coord": "2722258935367507707706996859454145691649",
+			"seed": "0x638738f64988bae9685900939e9cd5ba0ccddf054f967da93d0573996dc5505f",
+			"tokenId": 44,
+			"yonder": 9,
+			"name": "Chamber #44",
+			"chapter": 1,
+			"terrain": 4,
+			"entryDir": 2,
+			"gemPos": 70,
+			"gemType": 1,
+			"coins": 20,
+			"worth": 120,
+			"doors": [
+				11,
+				159,
+				160,
+				248
+			],
+			"locks": [
+				true,
+				false,
+				false,
+				false
+			],
+			"locksCount": 1
+		},
+		"3062541302288446171170371466885913903105": {
+			"compass": {
+				"east": 9,
+				"south": 1
+			},
+			"coord": "3062541302288446171170371466885913903105",
+			"seed": "0xe83c39e1d73fe41ef017599a448fcfe19cfd47423fc3daab8315f670aed5cd53",
+			"tokenId": 45,
+			"yonder": 10,
+			"name": "Chamber #45",
+			"chapter": 1,
+			"terrain": 3,
+			"entryDir": 2,
+			"gemPos": 91,
+			"gemType": 2,
+			"coins": 10,
+			"worth": 160,
+			"doors": [
+				7,
+				143,
+				144,
+				0
+			],
+			"locks": [
+				false,
+				false,
+				false,
+				false
+			],
+			"locksCount": 0
+		},
+		"3402823669209384634633746074317682114561": {
+			"compass": {
+				"east": 10,
+				"south": 1
+			},
+			"coord": "3402823669209384634633746074317682114561",
+			"seed": "0xa5790f653636518286ff52f6dbfd8ce68590d8d61b655e333f9c3025bdb33f05",
+			"tokenId": 46,
+			"yonder": 15,
+			"name": "Chamber #46",
+			"chapter": 1,
+			"terrain": 4,
+			"entryDir": 3,
+			"gemPos": 45,
+			"gemType": 1,
+			"coins": 90,
+			"worth": 190,
+			"doors": [
+				9,
+				127,
+				128,
+				246
+			],
+			"locks": [
+				true,
+				true,
+				false,
+				false
+			],
+			"locksCount": 2
+		},
+		"6277101735386680766898330725496112587272726911349948416000": {
+			"compass": {
+				"north": 1,
+				"east": 9
+			},
+			"coord": "6277101735386680766898330725496112587272726911349948416000",
+			"seed": "0x9b446b6accf00b27c39e3655be16c51abb09993cc1f78f23e15208b7494b1a97",
+			"tokenId": 47,
+			"yonder": 11,
+			"name": "Chamber #47",
+			"chapter": 1,
+			"terrain": 3,
+			"entryDir": 3,
+			"gemPos": 82,
+			"gemType": 3,
+			"coins": 170,
+			"worth": 370,
+			"doors": [
+				11,
+				95,
+				96,
+				247
+			],
+			"locks": [
+				false,
+				true,
+				true,
+				false
+			],
+			"locksCount": 2
+		},
+		"12554203470773361530734120148703779003375082355813982928896": {
+			"compass": {
+				"north": 2,
+				"east": 9
+			},
+			"coord": "12554203470773361530734120148703779003375082355813982928896",
+			"seed": "0x051381be326503c6085a03bb02e15762d8832a2f85f64ef33c49e4a3514bdf26",
+			"tokenId": 48,
+			"yonder": 12,
+			"name": "Chamber #48",
+			"chapter": 1,
+			"terrain": 4,
+			"entryDir": 2,
+			"gemPos": 122,
+			"gemType": 1,
+			"coins": 10,
+			"worth": 110,
+			"doors": [
+				10,
+				159,
+				160,
+				251
+			],
+			"locks": [
+				true,
+				true,
+				false,
+				false
+			],
+			"locksCount": 2
+		},
+		"18446744073709551618": {
+			"compass": {
+				"west": 1,
+				"south": 2
+			},
+			"coord": "18446744073709551618",
+			"seed": "0xf7131f64b87eb9af0660bc5beb672ef96093d2ec3de0e2bc570cead2ab679bd9",
+			"tokenId": 49,
+			"yonder": 2,
+			"name": "Chamber #49",
+			"chapter": 1,
+			"terrain": 1,
+			"entryDir": 0,
+			"gemPos": 60,
+			"gemType": 0,
+			"coins": 30,
+			"worth": 80,
+			"doors": [
+				11,
+				95,
+				112,
+				249
+			],
+			"locks": [
+				false,
+				false,
+				false,
+				false
+			],
+			"locksCount": 0
+		},
+		"340282366920938463463374607431768211458": {
+			"compass": {
+				"east": 1,
+				"south": 2
+			},
+			"coord": "340282366920938463463374607431768211458",
+			"seed": "0x694f1116e467b1af03f12065d5df1ee12e8dbbe91a53ab9be0177ed055364ff6",
+			"tokenId": 50,
+			"yonder": 3,
+			"name": "Chamber #50",
+			"chapter": 1,
+			"terrain": 1,
+			"entryDir": 2,
+			"gemPos": 185,
+			"gemType": 0,
+			"coins": 310,
+			"worth": 360,
+			"doors": [
+				5,
+				143,
+				80,
+				251
+			],
+			"locks": [
+				false,
+				true,
+				false,
+				true
+			],
+			"locksCount": 2
+		},
+		"18446744073709551619": {
+			"compass": {
+				"west": 1,
+				"south": 3
+			},
+			"coord": "18446744073709551619",
+			"seed": "0x751248047d001934ff4c774636c1af2e210a38d317b336163811ac3b165dc3b1",
+			"tokenId": 51,
+			"yonder": 3,
+			"name": "Chamber #51",
+			"chapter": 1,
+			"terrain": 4,
+			"entryDir": 0,
+			"gemPos": 211,
+			"gemType": 4,
+			"coins": 150,
+			"worth": 450,
+			"doors": [
+				9,
+				143,
+				112,
+				247
+			],
+			"locks": [
+				false,
+				true,
+				false,
+				true
+			],
+			"locksCount": 2
+		},
+		"37662610412320084585056430740771629277394380311374816346112": {
+			"compass": {
+				"north": 6,
+				"east": 6
+			},
+			"coord": "37662610412320084585056430740771629277394380311374816346112",
+			"seed": "0xaef04526fd61b973769764dcd8b5c28c9464df8a743f908288ddce2470ccc812",
+			"tokenId": 52,
+			"yonder": 11,
+			"name": "Chamber #52",
+			"chapter": 1,
+			"terrain": 1,
+			"entryDir": 3,
+			"gemPos": 70,
+			"gemType": 1,
+			"coins": 70,
+			"worth": 170,
+			"doors": [
+				6,
+				143,
+				64,
+				249
+			],
+			"locks": [
+				true,
+				true,
+				true,
+				false
+			],
+			"locksCount": 3
+		},
+		"36893488147419103233": {
+			"compass": {
+				"west": 2,
+				"south": 1
+			},
+			"coord": "36893488147419103233",
+			"seed": "0x6fe672b3f48b18978991b4bddbdb17723fa997d799653af357b8ff7737ead1e9",
+			"tokenId": 53,
+			"yonder": 2,
+			"name": "Chamber #53",
+			"chapter": 1,
+			"terrain": 1,
+			"entryDir": 1,
+			"gemPos": 92,
+			"gemType": 3,
+			"coins": 180,
+			"worth": 380,
+			"doors": [
+				5,
+				159,
+				80,
+				250
+			],
+			"locks": [
+				true,
+				false,
+				true,
+				false
+			],
+			"locksCount": 2
+		},
+		"36893488147419103234": {
+			"compass": {
+				"west": 2,
+				"south": 2
+			},
+			"coord": "36893488147419103234",
+			"seed": "0xfb8b6e07c71355ae5ba68816123b5163872233876ed8fe5e2b195d257234c2f1",
+			"tokenId": 54,
+			"yonder": 3,
+			"name": "Chamber #54",
+			"chapter": 1,
+			"terrain": 2,
+			"entryDir": 1,
+			"gemPos": 101,
+			"gemType": 1,
+			"coins": 20,
+			"worth": 120,
+			"doors": [
+				10,
+				127,
+				96,
+				0
+			],
+			"locks": [
+				false,
+				false,
+				true,
+				false
+			],
+			"locksCount": 1
+		},
+		"36893488147419103235": {
+			"compass": {
+				"west": 2,
+				"south": 3
+			},
+			"coord": "36893488147419103235",
+			"seed": "0x6cb2279866b33f141b35b032cc405a3f643fd875a6f01deddcfeae2bdc16d267",
+			"tokenId": 55,
+			"yonder": 4,
+			"name": "Chamber #55",
+			"chapter": 1,
+			"terrain": 4,
+			"entryDir": 1,
+			"gemPos": 139,
+			"gemType": 2,
+			"coins": 30,
+			"worth": 180,
+			"doors": [
+				0,
+				127,
+				96,
+				250
+			],
+			"locks": [
+				false,
+				false,
+				true,
+				true
+			],
+			"locksCount": 2
+		},
+		"1361129467683753853853498429727072845825": {
+			"compass": {
+				"east": 4,
+				"south": 1
+			},
+			"coord": "1361129467683753853853498429727072845825",
+			"seed": "0x6ff45118522020197b75465d7270cb069e3aa4ad3df6822c86de52791e5772d2",
+			"tokenId": 56,
+			"yonder": 7,
+			"name": "Chamber #56",
+			"chapter": 1,
+			"terrain": 2,
+			"entryDir": 1,
+			"gemPos": 211,
+			"gemType": 3,
+			"coins": 470,
+			"worth": 670,
+			"doors": [
+				6,
+				127,
+				64,
+				249
+			],
+			"locks": [
+				false,
+				false,
+				false,
+				false
+			],
+			"locksCount": 0
+		},
+		"1361129467683753853853498429727072845826": {
+			"compass": {
+				"east": 4,
+				"south": 2
+			},
+			"coord": "1361129467683753853853498429727072845826",
+			"seed": "0x959afbbbf0c2ea667d9ae1bb69faa169dd95cdec19a7b3e31788653aa689185d",
+			"tokenId": 57,
+			"yonder": 8,
+			"name": "Chamber #57",
+			"chapter": 1,
+			"terrain": 1,
+			"entryDir": 0,
+			"gemPos": 42,
+			"gemType": 4,
+			"coins": 30,
+			"worth": 330,
+			"doors": [
+				9,
+				0,
+				64,
+				249
+			],
+			"locks": [
+				false,
+				false,
+				true,
+				false
+			],
+			"locksCount": 1
+		},
+		"1361129467683753853853498429727072845827": {
+			"compass": {
+				"east": 4,
+				"south": 3
+			},
+			"coord": "1361129467683753853853498429727072845827",
+			"seed": "0x572254841c6ac73cb8c55566a54473a097639323f56dc6ec80e832ee64622625",
+			"tokenId": 58,
+			"yonder": 9,
+			"name": "Chamber #58",
+			"chapter": 1,
+			"terrain": 1,
+			"entryDir": 0,
+			"gemPos": 40,
+			"gemType": 2,
+			"coins": 70,
+			"worth": 220,
+			"doors": [
+				9,
+				175,
+				160,
+				246
+			],
+			"locks": [
+				false,
+				false,
+				false,
+				false
+			],
+			"locksCount": 0
+		},
+		"1361129467683753853853498429727072845828": {
+			"compass": {
+				"east": 4,
+				"south": 4
+			},
+			"coord": "1361129467683753853853498429727072845828",
+			"seed": "0xe672e4e5a8961bb4d3c5c0f8fed30ddaa66aa8f2f791a05b0b96097ce8064228",
+			"tokenId": 59,
+			"yonder": 10,
+			"name": "Chamber #59",
+			"chapter": 1,
+			"terrain": 4,
+			"entryDir": 0,
+			"gemPos": 138,
+			"gemType": 4,
+			"coins": 70,
+			"worth": 370,
+			"doors": [
+				6,
+				143,
+				96,
+				246
+			],
+			"locks": [
+				false,
+				false,
+				true,
+				false
+			],
+			"locksCount": 1
+		},
+		"1020847100762815390390123822295304634371": {
+			"compass": {
+				"east": 3,
+				"south": 3
+			},
+			"coord": "1020847100762815390390123822295304634371",
+			"seed": "0x0ec2dff5dfddd14d1538180aaac17e65da46b1b8d5310425daf081cfe6221a03",
+			"tokenId": 60,
+			"yonder": 10,
+			"name": "Chamber #60",
+			"chapter": 1,
+			"terrain": 1,
+			"entryDir": 1,
+			"gemPos": 164,
+			"gemType": 0,
+			"coins": 420,
+			"worth": 470,
+			"doors": [
+				7,
+				175,
+				96,
+				244
+			],
+			"locks": [
+				true,
+				false,
+				true,
+				true
+			],
+			"locksCount": 3
+		},
+		"1361129467683753853853498429727072845829": {
+			"compass": {
+				"east": 4,
+				"south": 5
+			},
+			"coord": "1361129467683753853853498429727072845829",
+			"seed": "0xaf89c966ecb8175fdb82cc07379e37d3da9c14ceef670212b5ec44f2cdf2b5b4",
+			"tokenId": 61,
+			"yonder": 11,
+			"name": "Chamber #61",
+			"chapter": 1,
+			"terrain": 4,
+			"entryDir": 0,
+			"gemPos": 181,
+			"gemType": 3,
+			"coins": 50,
+			"worth": 250,
+			"doors": [
+				6,
+				127,
+				144,
+				247
+			],
+			"locks": [
+				false,
+				false,
+				true,
+				true
+			],
+			"locksCount": 2
+		},
+		"1701411834604692317316873037158841057285": {
+			"compass": {
+				"east": 5,
+				"south": 5
+			},
+			"coord": "1701411834604692317316873037158841057285",
+			"seed": "0xe11b93feb128d32fa69f332391d2ba276fa3210859d4b797154991ebe9673ded",
+			"tokenId": 62,
+			"yonder": 12,
+			"name": "Chamber #62",
+			"chapter": 1,
+			"terrain": 4,
+			"entryDir": 2,
+			"gemPos": 212,
+			"gemType": 2,
+			"coins": 110,
+			"worth": 260,
+			"doors": [
+				9,
+				127,
+				112,
+				250
+			],
+			"locks": [
+				false,
+				false,
+				false,
+				false
+			],
+			"locksCount": 0
+		},
+		"2041694201525630780780247644590609268741": {
+			"compass": {
+				"east": 6,
+				"south": 5
+			},
+			"coord": "2041694201525630780780247644590609268741",
+			"seed": "0x05899f790594ee3c3874bb4ba8d91ddd330ca98328358f054e15c970fbdabf13",
+			"tokenId": 63,
+			"yonder": 13,
+			"name": "Chamber #63",
+			"chapter": 1,
+			"terrain": 3,
+			"entryDir": 2,
+			"gemPos": 219,
+			"gemType": 2,
+			"coins": 10,
+			"worth": 160,
+			"doors": [
+				7,
+				127,
+				112,
+				245
+			],
+			"locks": [
+				true,
+				false,
+				false,
+				true
+			],
+			"locksCount": 2
+		},
+		"1701411834604692317316873037158841057286": {
+			"compass": {
+				"east": 5,
+				"south": 6
+			},
+			"coord": "1701411834604692317316873037158841057286",
+			"seed": "0x93cd81475d2333f2206c945d0d3e2159baeb3e52f7bc57d3a459296cee6ca332",
+			"tokenId": 64,
+			"yonder": 13,
+			"name": "Chamber #64",
+			"chapter": 1,
+			"terrain": 4,
+			"entryDir": 0,
+			"gemPos": 104,
+			"gemType": 2,
+			"coins": 90,
+			"worth": 240,
+			"doors": [
+				10,
+				111,
+				112,
+				247
+			],
+			"locks": [
+				false,
+				true,
+				true,
+				true
+			],
+			"locksCount": 3
+		},
+		"1701411834604692317316873037158841057284": {
+			"compass": {
+				"east": 5,
+				"south": 4
+			},
+			"coord": "1701411834604692317316873037158841057284",
+			"seed": "0xc4e8e349a90eeaa0b7545469685d73b412413270fb98e26cb0bca0b29511ff27",
+			"tokenId": 65,
+			"yonder": 13,
+			"name": "Chamber #65",
+			"chapter": 1,
+			"terrain": 1,
+			"entryDir": 3,
+			"gemPos": 99,
+			"gemType": 3,
+			"coins": 570,
+			"worth": 770,
+			"doors": [
+				5,
+				191,
+				128,
+				249
+			],
+			"locks": [
+				false,
+				true,
+				false,
+				false
+			],
+			"locksCount": 1
+		},
+		"2381976568446569244243622252022377480197": {
+			"compass": {
+				"east": 7,
+				"south": 5
+			},
+			"coord": "2381976568446569244243622252022377480197",
+			"seed": "0xbd3be64fb521ad7f3b730a12f3d84e03b69733605945189fa18065d16cb1d587",
+			"tokenId": 66,
+			"yonder": 14,
+			"name": "Chamber #66",
+			"chapter": 1,
+			"terrain": 3,
+			"entryDir": 2,
+			"gemPos": 217,
+			"gemType": 0,
+			"coins": 150,
+			"worth": 200,
+			"doors": [
+				11,
+				159,
+				112,
+				244
+			],
+			"locks": [
+				true,
+				true,
+				false,
+				false
+			],
+			"locksCount": 2
+		},
+		"2381976568446569244243622252022377480198": {
+			"compass": {
+				"east": 7,
+				"south": 6
+			},
+			"coord": "2381976568446569244243622252022377480198",
+			"seed": "0xb1e48c47a6a9bc86b5154407f4ad7012f7394561023604b3961ca3f53b4660f2",
+			"tokenId": 67,
+			"yonder": 15,
+			"name": "Chamber #67",
+			"chapter": 1,
+			"terrain": 3,
+			"entryDir": 0,
+			"gemPos": 58,
+			"gemType": 3,
+			"coins": 20,
+			"worth": 220,
+			"doors": [
+				4,
+				175,
+				64,
+				251
+			],
+			"locks": [
+				false,
+				true,
+				true,
+				false
+			],
+			"locksCount": 2
+		},
+		"2381976568446569244243622252022377480199": {
+			"compass": {
+				"east": 7,
+				"south": 7
+			},
+			"coord": "2381976568446569244243622252022377480199",
+			"seed": "0x3256e00c4e6e805a3f8ebceac38180d735205d526e8359f01efe7deb4ca696b0",
+			"tokenId": 68,
+			"yonder": 16,
+			"name": "Chamber #68",
+			"chapter": 1,
+			"terrain": 4,
+			"entryDir": 0,
+			"gemPos": 196,
+			"gemType": 2,
+			"coins": 420,
+			"worth": 570,
+			"doors": [
+				11,
+				95,
+				160,
+				247
+			],
+			"locks": [
+				false,
+				false,
+				true,
+				true
+			],
+			"locksCount": 2
+		},
+		"2722258935367507707706996859454145691655": {
+			"compass": {
+				"east": 8,
+				"south": 7
+			},
+			"coord": "2722258935367507707706996859454145691655",
+			"seed": "0x4d441d1eae9e82be4e971bdbb3586ff45afca72b6542fe758d129b7491a175e4",
+			"tokenId": 69,
+			"yonder": 17,
+			"name": "Chamber #69",
+			"chapter": 1,
+			"terrain": 4,
+			"entryDir": 2,
+			"gemPos": 44,
+			"gemType": 3,
+			"coins": 130,
+			"worth": 330,
+			"doors": [
+				8,
+				191,
+				80,
+				250
 			],
 			"locks": [
 				true,
