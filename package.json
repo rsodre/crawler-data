@@ -9,7 +9,7 @@
 	"types": "dist/index.d.ts",
 	"scripts": {
 		"clean": "rimraf dist tsconfig.build.tsbuildinfo",
-		"build": "rm -f tsconfig.build.tsbuildinfo; tsc -p tsconfig.build.json",
+		"build": "tsc -p tsconfig.build.json",
 		"prepare": "yarn build",
 		"test": "mocha -r ts-node/register \"test/**/*.test.ts\""
 	},

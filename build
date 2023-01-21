@@ -1,0 +1,2 @@
+rm -f tsconfig.build.tsbuildinfo
+npm run build
