@@ -476,13 +476,6 @@
 				"south": 7
 			},
 			"coord": "2381976568446569244243622252022377480199"
-		},
-		"69": {
-			"compass": {
-				"east": 8,
-				"south": 7
-			},
-			"coord": "2722258935367507707706996859454145691655"
 		}
 	},
 	"chamberData": {
@@ -2587,43 +2580,12 @@
 				247
 			],
 			"locks": [
-				false,
-				false,
+				true,
+				true,
 				true,
 				true
 			],
-			"locksCount": 2
-		},
-		"2722258935367507707706996859454145691655": {
-			"compass": {
-				"east": 8,
-				"south": 7
-			},
-			"coord": "2722258935367507707706996859454145691655",
-			"seed": "0x4d441d1eae9e82be4e971bdbb3586ff45afca72b6542fe758d129b7491a175e4",
-			"tokenId": 69,
-			"yonder": 17,
-			"name": "Chamber #69",
-			"chapter": 1,
-			"terrain": 4,
-			"entryDir": 2,
-			"gemPos": 44,
-			"gemType": 3,
-			"coins": 130,
-			"worth": 330,
-			"doors": [
-				8,
-				191,
-				80,
-				250
-			],
-			"locks": [
-				true,
-				true,
-				false,
-				true
-			],
-			"locksCount": 3
+			"locksCount": 4
 		}
 	}
 }
