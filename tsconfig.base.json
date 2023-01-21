@@ -17,9 +17,9 @@
 		"strict": true,
 		"strictNullChecks": true,
 		"target": "es6",
-		// "lib": [
-		// 	"esnext"
-		// ],
+		"lib": [
+			"esnext"
+		],
 	},
 	"exclude": [
 		"**/dist"

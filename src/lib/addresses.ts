@@ -1,5 +1,9 @@
-import { ChainId, ContractAddresses, NetworkName } from '../types'
-import addresses from './addresses.json'
+import addresses from '../data/addresses.json'
+import {
+	ChainId,
+	ContractAddresses,
+	NetworkName,
+} from './types'
 
 /**
  * Get addresses of contracts that have been deployed to the
@@ -8,9 +12,9 @@ import addresses from './addresses.json'
  * @param chainId The desired chainId
  */
 export const getContractAddressesForChainOrThrow = (chainId: ChainId | NetworkName): ContractAddresses => {
-	const _addresses: Record<string, ContractAddresses> = addresses;
+	const _addresses: Record<string, ContractAddresses> = addresses
 	if (!_addresses[chainId]) {
-		throw new Error(`getContractAddressesForChainOrThrow(${chainId}): Unknown chain id.`);
+		throw new Error(`getContractAddressesForChainOrThrow(${chainId}): Unknown chain id.`)
 	}
-	return _addresses[chainId];
-};
+	return _addresses[chainId]
+}
