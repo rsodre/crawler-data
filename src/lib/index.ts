@@ -3,10 +3,9 @@ export {
 } from './addresses'
 
 export {
-	getRawData,
-	getNetworkData,
+	getAllChambersViews,
 	// getAddress,
-	getTokenCount,
+	getChamberCount,
 	getTokenIdToCoordsView,
 	getTokenIdToCoords,
 	getChamberDataView,

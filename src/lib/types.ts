@@ -81,11 +81,9 @@ export interface ChamberData {
 // Crawler Views
 //
 
-/** @type all cached data from all supported networks  */
-export type RawData = Record<ChainId, NetworkData>
-
 /** @type all cached data of a network  */
-export interface NetworkData {
+export interface AllChambersViews {
+	contractAddress: Address
 	tokenIdToCoord: TokenIdToCoordsView
 	chamberData: ChamberDataView
 }
