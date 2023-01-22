@@ -8,7 +8,7 @@ export type NetworkName = 'mainnet' | 'goerli'
 
 /** @type supported networks */
 export enum ChainId {
-  Mainnet = 1,
+	Mainnet = 1,
 	Goerli = 5,
 }
 
@@ -51,8 +51,8 @@ export interface Compass {
 /** @type all the coordinates of a chamber */
 export interface ChamberCoords {
 	coord: BNString
+	slug: string
 	compass: Compass
-	// slug: string
 }
 
 /** @type all static data of a chamber  */
@@ -61,6 +61,7 @@ export interface ChamberData {
 	tokenId: number
 	chapter: number
 	seed: BNString
+	bitmap: BNString
 	name: string
 	compass: Compass
 	coord: BNString
