@@ -552,6 +552,14 @@
 				"east": 8,
 				"south": 7
 			}
+		},
+		"70": {
+			"coord": "2041694201525630780780247644590609268740",
+			"slug": "S4E6",
+			"compass": {
+				"east": 6,
+				"south": 4
+			}
 		}
 	},
 	"chamberData": {
@@ -1606,9 +1614,9 @@
 				true,
 				false,
 				false,
-				true
+				false
 			],
-			"locksCount": 2,
+			"locksCount": 1,
 			"isStatic": false
 		},
 		"2381976568446569244243622252022377480195": {
@@ -2626,12 +2634,12 @@
 				245
 			],
 			"locks": [
-				true,
+				false,
 				false,
 				false,
 				true
 			],
-			"locksCount": 2,
+			"locksCount": 1,
 			"isStatic": false
 		},
 		"1701411834604692317316873037158841057286": {
@@ -2674,7 +2682,7 @@
 			},
 			"coord": "1701411834604692317316873037158841057284",
 			"seed": "0xc4e8e349a90eeaa0b7545469685d73b412413270fb98e26cb0bca0b29511ff27",
-			"bitmap": "0xcfc0efc0ff80ff80fff07c78787cf9f8f3f0f3f0f3fff1fff07ff07efff07fe0",
+			"bitmap": "0xcfc0efc0ff80ff80fff07c78787cf9f8f3f0f3f0f3f8f1fcf07cf078fff07fe0",
 			"tokenId": 65,
 			"yonder": 13,
 			"name": "Chamber #65",
@@ -2687,18 +2695,18 @@
 			"worth": 770,
 			"doors": [
 				5,
-				191,
+				0,
 				128,
 				249
 			],
 			"locks": [
 				false,
-				true,
+				false,
 				false,
 				false
 			],
-			"locksCount": 1,
-			"isStatic": false
+			"locksCount": 0,
+			"isStatic": true
 		},
 		"2381976568446569244243622252022377480197": {
 			"compass": {
@@ -2830,6 +2838,39 @@
 				true
 			],
 			"locksCount": 3,
+			"isStatic": false
+		},
+		"2041694201525630780780247644590609268740": {
+			"compass": {
+				"east": 6,
+				"south": 4
+			},
+			"coord": "2041694201525630780780247644590609268740",
+			"seed": "0xeeb31e08bbf2a49b28027ffb735de5f7f0fca65ed6b7bdb1e52e82e55c1f76e0",
+			"bitmap": "0x1fe019e6186699e399f91f993f99e1f9f9f9b9e0fbe37e067e077b9f7b9f6e9f",
+			"tokenId": 70,
+			"yonder": 14,
+			"name": "Chamber #70",
+			"chapter": 1,
+			"terrain": 3,
+			"entryDir": 3,
+			"gemPos": 163,
+			"gemType": 1,
+			"coins": 50,
+			"worth": 150,
+			"doors": [
+				8,
+				191,
+				0,
+				247
+			],
+			"locks": [
+				false,
+				true,
+				false,
+				false
+			],
+			"locksCount": 1,
 			"isStatic": false
 		}
 	}

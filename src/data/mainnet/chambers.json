@@ -2192,6 +2192,30 @@
 				"west": 9,
 				"south": 2
 			}
+		},
+		"275": {
+			"coord": "680564733841876926926749214863536422922",
+			"slug": "S10E2",
+			"compass": {
+				"east": 2,
+				"south": 10
+			}
+		},
+		"276": {
+			"coord": "680564733841876926926749214863536422921",
+			"slug": "S9E2",
+			"compass": {
+				"east": 2,
+				"south": 9
+			}
+		},
+		"277": {
+			"coord": "680564733841876926926749214863536422923",
+			"slug": "S11E2",
+			"compass": {
+				"east": 2,
+				"south": 11
+			}
 		}
 	},
 	"chamberData": {
@@ -5457,10 +5481,10 @@
 				false,
 				false,
 				false,
-				true
+				false
 			],
-			"locksCount": 1,
-			"isStatic": false
+			"locksCount": 0,
+			"isStatic": true
 		},
 		"12554203470773361531074402515624717466838456963245751140352": {
 			"compass": {
@@ -6346,12 +6370,12 @@
 			],
 			"locks": [
 				false,
-				true,
+				false,
 				false,
 				false
 			],
-			"locksCount": 1,
-			"isStatic": false
+			"locksCount": 0,
+			"isStatic": true
 		},
 		"55340232221128654856": {
 			"compass": {
@@ -6412,11 +6436,11 @@
 			],
 			"locks": [
 				false,
-				true,
+				false,
 				false,
 				true
 			],
-			"locksCount": 2,
+			"locksCount": 1,
 			"isStatic": false
 		},
 		"18446744073709551626": {
@@ -6875,10 +6899,10 @@
 			"locks": [
 				false,
 				false,
-				true,
+				false,
 				true
 			],
-			"locksCount": 2,
+			"locksCount": 1,
 			"isStatic": false
 		},
 		"3062541302288446171170371466885913903106": {
@@ -11236,6 +11260,105 @@
 			],
 			"locksCount": 0,
 			"isStatic": true
+		},
+		"680564733841876926926749214863536422922": {
+			"compass": {
+				"east": 2,
+				"south": 10
+			},
+			"coord": "680564733841876926926749214863536422922",
+			"seed": "0x66402475318ef2ff8ce85ab6ad1f281a97961d4639dc7def4387ba4cded7d9ec",
+			"bitmap": "0x19e6ffffffffe7ffe7ffffffffffe7ffe7ffe67ffe7ffe7ffffffbffffffee7e",
+			"tokenId": 275,
+			"yonder": 12,
+			"name": "Chamber #275",
+			"chapter": 1,
+			"terrain": 4,
+			"entryDir": 2,
+			"gemPos": 179,
+			"gemType": 0,
+			"coins": 360,
+			"worth": 410,
+			"doors": [
+				8,
+				159,
+				80,
+				250
+			],
+			"locks": [
+				false,
+				true,
+				false,
+				false
+			],
+			"locksCount": 1,
+			"isStatic": false
+		},
+		"680564733841876926926749214863536422921": {
+			"compass": {
+				"east": 2,
+				"south": 9
+			},
+			"coord": "680564733841876926926749214863536422921",
+			"seed": "0xa0ff8b9d1f811600815aa2d377e8b97abdfd3e36fe6b7efe15f49548a556032f",
+			"bitmap": "0xfe0ffe1f800f00038063f07fff7fffffffffffffff7ffe3ffc0ffc03fe03ce",
+			"tokenId": 276,
+			"yonder": 12,
+			"name": "Chamber #276",
+			"chapter": 1,
+			"terrain": 1,
+			"entryDir": 0,
+			"gemPos": 187,
+			"gemType": 0,
+			"coins": 260,
+			"worth": 310,
+			"doors": [
+				9,
+				127,
+				144,
+				248
+			],
+			"locks": [
+				false,
+				false,
+				false,
+				false
+			],
+			"locksCount": 0,
+			"isStatic": true
+		},
+		"680564733841876926926749214863536422923": {
+			"compass": {
+				"east": 2,
+				"south": 11
+			},
+			"coord": "680564733841876926926749214863536422923",
+			"seed": "0x9d534da31dc7f2fa0d536ae2cde24af09e46bf146a360b097158ca1900acca66",
+			"bitmap": "0x7fd8fff8fffeffefffe7ffe77fffffbfffff7eff7efffffefffe7f9ffffffe5f",
+			"tokenId": 277,
+			"yonder": 13,
+			"name": "Chamber #277",
+			"chapter": 1,
+			"terrain": 4,
+			"entryDir": 0,
+			"gemPos": 172,
+			"gemType": 1,
+			"coins": 20,
+			"worth": 120,
+			"doors": [
+				10,
+				143,
+				96,
+				250
+			],
+			"locks": [
+				false,
+				true,
+				true,
+				true
+			],
+			"locksCount": 3,
+			"isStatic": false
 		}
 	}
 }
