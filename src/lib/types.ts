@@ -73,9 +73,11 @@ export interface ChamberData {
 	coins: number
 	worth: number
 	// TODO: Remove this? (not static)
+	tilemap: number[]
 	doors: number[]
 	locks: boolean[]
 	locksCount: number
+	isStatic: boolean
 }
 
 //--------------------------------
