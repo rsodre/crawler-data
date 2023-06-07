@@ -1,6 +1,6 @@
 {
 	"name": "@rsodre/crawler-data",
-	"version": "0.0.4",
+	"version": "0.0.5",
 	"description": "Endless Crawler Cached Data",
 	"author": "Studio Avante",
 	"license": "CC0-1.0",
@@ -11,7 +11,8 @@
 		"clean": "rimraf dist tsconfig.build.tsbuildinfo",
 		"build": "tsc -p tsconfig.build.json",
 		"prepare": "yarn build",
-		"test": "mocha -r ts-node/register \"test/**/*.test.ts\""
+		"test": "mocha -r ts-node/register \"test/**/*.test.ts\"",
+		"publish": "npm publish --access public"
 	},
 	"repository": {
 		"type": "git",
