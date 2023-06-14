@@ -76,45 +76,45 @@ export const mask_East = (mask_Dir << 128n)
 export const mask_West = (mask_Dir << 64n)
 export const mask_South = mask_Dir
 
-// export type Absent = 0 | null | undefined
-// export interface CompassNE {
-//   north: number
-//   east: number
-//   west: Absent
-//   south: Absent
-// }
-// export interface CompassNW {
-//   north: number
-//   east: Absent
-//   west: number
-//   south: Absent
-// }
-// export interface CompassSE {
-//   north: Absent
-//   east: number
-//   west: Absent
-//   south: number
-// }
-// export interface CompassSW {
-//   north: Absent
-//   east: Absent
-//   west: number
-//   south: number
-// }
-// export type CompassShort = CompassNE | CompassNW | CompassSE | CompassSW
-
-export interface Compass {
+export type Absent = 0 | null | undefined
+export interface CompassNE {
   north: number
   east: number
+  west?: Absent
+  south?: Absent
+}
+export interface CompassNW {
+  north: number
+  east?: Absent
+  west: number
+  south?: Absent
+}
+export interface CompassSE {
+  north?: Absent
+  east: number
+  west?: Absent
+  south: number
+}
+export interface CompassSW {
+  north?: Absent
+  east?: Absent
   west: number
   south: number
 }
+export type Compass = CompassNE | CompassNW | CompassSE | CompassSW
+
+// export interface Compass {
+//   north: number
+//   east: number
+//   west: number
+//   south: number
+// }
 
 export const validateCompass = (compass: Compass): boolean => {
-	const hasNorth = (compass.north > 0)
-	const hasSouth = (compass.south > 0)
-	const hasEast = (compass.east > 0)
-	const hasWest = (compass.west > 0)
+	const hasNorth = (compass.north && compass.north > 0)
+	const hasSouth = (compass.south && compass.south > 0)
+	const hasEast = (compass.east && compass.east > 0)
+	const hasWest = (compass.west && compass.west > 0)
 	if ((hasNorth && hasSouth)
 		|| (!hasNorth && !hasSouth)
 		|| (hasEast && hasWest)
@@ -137,15 +137,15 @@ export const coordToCompass = (coord: bigint): Compass => {
     east: Number((coord >> 128n) & mask_Dir),
     west: Number((coord >> 64n) & mask_Dir),
     south: Number(coord & mask_Dir),
-  }
+  } as Compass
 }
 
 export const compassToCoord = (compass: Compass | null): bigint => {
   let result = 0n
-	if(compass && compass.north > 0) result += BigInt(compass.north) << 192n
-	if(compass && compass.east > 0) result += BigInt(compass.east) << 128n
-	if(compass && compass.west > 0) result += BigInt(compass.west) << 64n
-	if(compass && compass.south > 0) result += BigInt(compass.south)
+	if(compass && compass.north && compass.north > 0) result += BigInt(compass.north) << 192n
+	if(compass && compass.east && compass && compass.east > 0) result += BigInt(compass.east) << 128n
+	if(compass && compass.west && compass && compass.west > 0) result += BigInt(compass.west) << 64n
+	if(compass && compass.south && compass && compass.south > 0) result += BigInt(compass.south)
 	return result
 }
 
@@ -153,11 +153,11 @@ const slugSeparator = ','
 export const compassToSlug = (compass: Compass, separator = slugSeparator): string => {
   let result = ''
 	if (validateCompass(compass)) {
-		if (compass.north > 0) result += `N${compass.north}`
-		if (compass.south > 0) result += `S${compass.south}`
+		if (compass.north && compass.north > 0) result += `N${compass.north}`
+		if (compass.south && compass.south > 0) result += `S${compass.south}`
 		if (separator) result += separator
-		if (compass.east > 0) result += `E${compass.east}`
-		if (compass.west > 0) result += `W${compass.west}`
+		if (compass.east && compass.east > 0) result += `E${compass.east}`
+		if (compass.west && compass.west > 0) result += `W${compass.west}`
 	}
   return result
 }
