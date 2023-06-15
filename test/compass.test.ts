@@ -1,9 +1,12 @@
 import {
 	Compass,
+	CompassMax,
 	validateCompass,
 } from '../src/lib/Crawl'
 
-describe('Compass', () => {
+const _maxn = Number(CompassMax)
+
+describe('* ompass', () => {
 	it('validate(): true', () => {
 		expect(validateCompass({ north: 1, east: 1 })).toBe(true)
 		expect(validateCompass({ north: 1, west: 1 })).toBe(true)
@@ -25,6 +28,11 @@ describe('Compass', () => {
 		expect(validateCompass({ south: 1, west: 1, north: 0, east: 0 })).toBe(true)
 		expect(validateCompass({ south: 1, west: 1, north: 0 })).toBe(true)
 		expect(validateCompass({ south: 1, west: 1, east: 0 })).toBe(true)
+
+		expect(validateCompass({ north: _maxn, east: _maxn })).toBe(true)
+		expect(validateCompass({ north: _maxn, west: _maxn })).toBe(true)
+		expect(validateCompass({ south: _maxn, east: _maxn })).toBe(true)
+		expect(validateCompass({ south: _maxn, west: _maxn })).toBe(true)
 	})
 	it('validate(): false', () => {
 		expect(validateCompass({} as Compass)).toBe(false)
