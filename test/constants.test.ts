@@ -15,12 +15,11 @@ describe('* constants', () => {
 
 	it('CompassMax', () => {
 		expect(CompassMax).toBe(_max)
+		expect(CompassMax).toBe(BigInt('0xffffffffffffffff'))
 		// expect(Number(CompassMax >> 1n)).toBe(Number.MAX_SAFE_INTEGER)
 	})
 
 	it('Mask', () => {
-		expect(Mask.Dir).toBe(_max)
-		expect(Mask.Dir).toBe(BigInt('0xffffffffffffffff'))
 		expect(Mask.North).toBe(_max << 192n)
 		expect(Mask.East).toBe(_max << 128n)
 		expect(Mask.West).toBe(_max << 64n)

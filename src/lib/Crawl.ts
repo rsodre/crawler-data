@@ -100,7 +100,16 @@ export const getOppositeTerrain = (terrain: Terrain): Terrain => {
 
 
 //-----------------------------------
-// coord (uint256)
+// coord (uint256 as bigint)
+//
+// A Chamber's coordinate is designated by North, East, West, South values (uint64)
+// This 'Compass' is stored into an uint256 like this...
+//
+// North            West             East             South
+// ffffffffffffffff ffffffffffffffff ffffffffffffffff ffffffffffffffff
+//
+// Directions are ALWAYS in NEWS order (North, East, West, South)
+// just because it is catchy and easy to remember
 //
 
 // The maximum value in any Compass direction
@@ -108,14 +117,12 @@ export const CompassMax = BigInt('0xffffffffffffffff') // 64-bit, 18446744073709
 
 // coord bit mask for each Compass direction
 export const Mask = {
-	// the basic direction mask (uint64)
-	Dir: CompassMax,
 	// mask of each directin inside uint256
 	North: (CompassMax << 192n),
 	East: (CompassMax << 128n),
 	West: (CompassMax << 64n),
 	South: CompassMax,
-	// Inverted Masks
+	// inverted masks
 	InvNorth: ~(CompassMax << 192n),
 	InvEast: ~(CompassMax << 128n),
 	InvWest: ~(CompassMax << 64n),
@@ -216,10 +223,10 @@ export const compassEquals = (a: Compass | null, b: Compass | null): boolean => 
 export const coordToCompass = (coord: bigint): Compass | null => {
 	if (coord == 0n) return null
 	const result = {
-		north: Number((coord >> 192n) & Mask.Dir),
-		east: Number((coord >> 128n) & Mask.Dir),
-		west: Number((coord >> 64n) & Mask.Dir),
-		south: Number(coord & Mask.Dir),
+		north: Number((coord & Mask.North) >> 192n),
+		east: Number((coord & Mask.East) >> 128n),
+		west: Number((coord & Mask.West) >> 64n),
+		south: Number(coord & Mask.South),
 	} as Compass
 	return validateCompass(result) ? result : null
 }
