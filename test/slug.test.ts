@@ -3,19 +3,21 @@ import {
 	Compass,
 	slugToCompass,
 	slugToCoord,
+	validateSlug,
 	validateCompass,
 	compassEquals,
 	compassToCoord,
 	CompassMax,
+	slugSeparators,
 } from '../src/lib/Crawl'
 
-type TestPair = { slug: string | null, compass: Compass | null }
+type TestPair = { slug: string, compass: Compass | null }
 
 const _max = CompassMax.toString()
 const _maxn = Number(CompassMax)
 const _slugs: TestPair[] = [
 	// invalids
-	{ slug: null, compass: null },
+	// { slug: null, compass: null },
 	{ slug: '', compass: null },
 	{ slug: 'N0,E0', compass: null },
 	{ slug: 'N0,W0', compass: null },
@@ -41,6 +43,10 @@ const _slugs: TestPair[] = [
 	{ slug: 'N1,EE1', compass: null },
 	{ slug: 'ASDN1,E1', compass: null },
 	{ slug: 'N1,E1E', compass: null },
+	{ slug: 'N1', compass: null },
+	{ slug: 'E1', compass: null },
+	{ slug: 'W1', compass: null },
+	{ slug: 'S1', compass: null },
 	// valids
 	{ slug: 'N1,E1', compass: { north: 1, east: 1 } },
 	{ slug: 'N1,W1', compass: { north: 1, west: 1 } },
@@ -66,37 +72,57 @@ const _slugs: TestPair[] = [
 	{ slug: 'S01,W01', compass: { south: 1, west: 1 } },
 ]
 
+const _validateSlug = (slug: string, pair: TestPair) => {
+	expect(validateSlug(slug), `Slug [${slug}] is not valid`).toBe(true)
+	// convert to Compass
+	const asCompass = slugToCompass(slug)
+	expect(asCompass, `Slug [${slug}] compass [${JSON.stringify(asCompass)}] should not be null`).not.toBe(null)
+	expect(compassEquals(asCompass, pair.compass), `Slug [${slug}] compass [${JSON.stringify(asCompass)}] is not [${JSON.stringify(pair.compass)}]`).toBe(true)
+	// convert to coord
+	const asCoord = slugToCoord(slug)
+	const expectedCoord = compassToCoord(pair.compass)
+	expect(asCoord, `Slug [${slug}] coord [${asCoord}] should not be zero`).not.toBe(0n)
+	expect(asCoord, `Slug [${slug}] coord [${asCoord}] is not [${expectedCoord}]`).toBe(expectedCoord)
+}
+
+const _invalidateSlug = (slug: string) => {
+	expect(validateSlug(slug), `Slug [${slug}] is not invalid`).toBe(false)
+	// convert to Compass
+	const asCompass = slugToCompass(slug)
+	expect(asCompass, `Slug [${slug}] compass [${JSON.stringify(asCompass)}] is not null`).toBe(null)
+	// convert to coord
+	const asCoord = slugToCoord(slug)
+	expect(asCoord, `Slug [${slug}] coord [${asCoord}] is not 0n`).toBe(0n)
+}
+
 describe('* slug', () => {
-	it('slugToCompass()', () => {
+	it('validate/invalidate slugs', () => {
 		_slugs.forEach((pair) => {
 			const slug = pair.slug
 			const compass = pair.compass
 			if (compass == null) {
 				// Invalid slugs
 				expect(validateCompass(compass)).toBe(false)
-				expect(slugToCompass(slug), `Slug [${slug}] should be invalid`).toBe(null)
-				expect(slugToCoord(slug), `Slug [${slug}] should be invalid`).toBe(0n)
-
+				_invalidateSlug(slug)
 			} else {
 				// Valid slugs
 				expect(validateCompass(compass)).toBe(true)
-				
-				const _compass = slugToCompass(slug)
-				expect(_compass, `Slug [${slug}] fail`).not.toBe(null)
-				expect(compassEquals(compass, _compass), `Slug [${slug}] compass [${JSON.stringify(_compass)}] is not [${JSON.stringify(compass)}]`).toBe(true)
-
-				const _coord = slugToCoord(slug)
-				expect(_coord, `Slug [${slug}] fail`).not.toBe(0n)
-				expect(_coord, `Slug [${slug}] fail`).toBe(compassToCoord(compass))
-
-				// TODO: remove separator
-
-				// TODO: other valid separators
-
-				// TODO: invalid separators
-
+				_validateSlug(slug, pair)
+				// validate lower case
+				_validateSlug(slug.toLowerCase(), pair)
+				// validate all separators
+				slugSeparators.forEach((s) => {
+					if (s != null) {
+						_validateSlug(slug.replace(',', s), pair)
+					}
+				})
+				// invalidate bad separators
+				_invalidateSlug(slug.replace(',', 'x'))
+				_invalidateSlug(slug.replace(',', '?'))
+				_invalidateSlug(slug.replace(',', ',,'))
+				_invalidateSlug(slug.replace(',', '  '))
+				_invalidateSlug(slug.replace(',', ',N1'))
 			}
-
 		})
 	})
 })

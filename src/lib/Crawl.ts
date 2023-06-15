@@ -203,11 +203,11 @@ export const validateCompass = (compass: Compass | null): boolean => {
 }
 
 export const validateCoord = (coord: bigint): boolean => {
-	return validateCompass(coordToCompass(coord))
+	return coordToCompass(coord) != null
 }
 
 export const validateSlug = (slug: string | null): boolean => {
-	return validateCompass(slugToCompass(slug))
+	return slugToCompass(slug) != null
 }
 
 export const compassEquals = (a: Compass | null, b: Compass | null): boolean => {
@@ -242,8 +242,10 @@ export const compassToCoord = (compass: Compass | null): bigint => {
 	return result
 }
 
-const defaultSlugSeparator = ','
-export type SlugSeparator = null | ','
+export const slugSeparators = [null, '', ',', '.', ';', '-'] as const
+export const defaultSlugSeparator = ','
+export type SlugSeparator = typeof slugSeparators[number]
+
 export const compassToSlug = (compass: Compass | null, separator: SlugSeparator = defaultSlugSeparator): string | null => {
 	if (!compass || !validateCompass(compass)) return null
 	let result = ''
@@ -255,19 +257,24 @@ export const compassToSlug = (compass: Compass | null, separator: SlugSeparator 
 	return result
 }
 
+const _slugSeparatorTester: string = slugSeparators.join('') + '0123456789'
 export const slugToCompass = (slug: string | null): Compass | null => {
 	if (!slug) return null
-	if (!/^[NnSs]\d+[,?][EeWw]\d+$/g.exec(slug)) return null
+	if (!/^[NnSs]\d+.{0,1}[EeWw]\d+$/g.exec(slug)) return null
+	// match each direction
 	const north = /[Nn]\d+/g.exec(slug)
 	const east = /[Ee]\d+/g.exec(slug)
 	const west = /[Ww]\d+/g.exec(slug)
 	const south = /[Ss]\d+/g.exec(slug)
+	// validate separator (will be a number if no separator)
+	const separatorIndex: number = (east?.index ?? west?.index ?? 0) - 1
+	if (separatorIndex < 0 || !_slugSeparatorTester.includes(slug.charAt(separatorIndex))) return null
+	// build compass
 	let result: any = {}
-	if (north) result.north = parseInt(north[0].substring(1))
-	if (east) result.east = parseInt(east[0].substring(1))
-	if (west) result.west = parseInt(west[0].substring(1))
-	if (south) result.south = parseInt(south[0].substring(1))
-	// console.log(`slugToCompass(${slug}):`, result)
+	if (north) result.north = parseInt(north[0].slice(1))
+	if (east) result.east = parseInt(east[0].slice(1))
+	if (west) result.west = parseInt(west[0].slice(1))
+	if (south) result.south = parseInt(south[0].slice(1))
 	return validateCompass(result) ? result : null
 }
 
@@ -296,8 +303,8 @@ type BitmapXY = {
 
 export const bitmapPosToXY = (pos: BitmapPos): BitmapXY => {
 	return {
-		x: (pos / 16),
-		y: (pos % 16),
+		x: (pos % 16),
+		y: Math.floor(pos / 16),
 	}
 }
 
@@ -305,7 +312,7 @@ export const bitmapXYToPos = (xy: BitmapXY): BitmapPos => {
 	return (xy.y * 16 + xy.x)
 }
 
-export const flipDoorPositionXY = (xy: BitmapXY) => {
+export const flipDoorPositionXY = (xy: BitmapXY): BitmapXY => {
 	if (xy.x === 0) return { x: 15, y: xy.y }
 	if (xy.x == 15) return { x: 0, y: xy.y }
 	if (xy.y === 0) return { x: xy.x, y: 15 }
@@ -314,8 +321,8 @@ export const flipDoorPositionXY = (xy: BitmapXY) => {
 	return xy
 }
 
-export const flipDoorPosition = (pos: BitmapPos) => {
-	return flipDoorPositionXY(bitmapPosToXY(pos))
+export const flipDoorPosition = (pos: BitmapPos): BitmapPos => {
+	return bitmapXYToPos(flipDoorPositionXY(bitmapPosToXY(pos)))
 }
 
 
