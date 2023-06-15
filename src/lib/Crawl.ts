@@ -113,7 +113,8 @@ export const getOppositeTerrain = (terrain: Terrain): Terrain => {
 //
 
 // The maximum value in any Compass direction
-export const CompassMax = BigInt('0xffffffffffffffff') // 64-bit, 18446744073709551615n, 18_446_744_073_709_551_615
+export const CompassMax = 0xffffffffffffffffn // 64-bit, 18446744073709551615n, 18_446_744_073_709_551_615
+export const CompassMaxNumber = Number(CompassMax) // 18446744073709552000
 
 // coord bit mask for each Compass direction
 export const Mask = {
@@ -257,6 +258,10 @@ export const compassToSlug = (compass: Compass | null, separator: SlugSeparator 
 	return result
 }
 
+export const coordToSlug = (coord: bigint, separator: SlugSeparator = defaultSlugSeparator): string | null => {
+	return compassToSlug(coordToCompass(coord), separator)
+}
+
 const _slugSeparatorTester: string = slugSeparators.join('') + '0123456789'
 export const slugToCompass = (slug: string | null): Compass | null => {
 	if (!slug) return null
@@ -276,10 +281,6 @@ export const slugToCompass = (slug: string | null): Compass | null => {
 	if (west) result.west = parseInt(west[0].slice(1))
 	if (south) result.south = parseInt(south[0].slice(1))
 	return validateCompass(result) ? result : null
-}
-
-export const coordToSlug = (coord: bigint): string | null => {
-	return compassToSlug(coordToCompass(coord))
 }
 
 export const slugToCoord = (slug: string | null): bigint => {

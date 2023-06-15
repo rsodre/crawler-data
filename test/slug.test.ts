@@ -8,13 +8,19 @@ import {
 	compassEquals,
 	compassToCoord,
 	CompassMax,
+	CompassMaxNumber,
 	slugSeparators,
+	compassToSlug,
+	coordToSlug,
+	SlugSeparator,
 } from '../src/lib/Crawl'
 
-type TestPair = { slug: string, compass: Compass | null }
+type TestPair = {
+	slug: string
+	compass: Compass | null
+	forwardOnly?: boolean
+}
 
-const _max = CompassMax.toString()
-const _maxn = Number(CompassMax)
 const _slugs: TestPair[] = [
 	// invalids
 	// { slug: null, compass: null },
@@ -61,18 +67,19 @@ const _slugs: TestPair[] = [
 	{ slug: 'S1,E238422', compass: { south: 1, east: 238422 } },
 	{ slug: 'S73236032230,W7723692223', compass: { south: 73236032230, west: 7723692223 } },
 	// max
-	{ slug: `N${_max},E${_max}`, compass: { north: _maxn, east: _maxn } },
-	{ slug: `N${_max},W${_max}`, compass: { north: _maxn, west: _maxn } },
-	{ slug: `S${_max},E${_max}`, compass: { south: _maxn, east: _maxn } },
-	{ slug: `S${_max},W${_max}`, compass: { south: _maxn, west: _maxn } },
+	{ slug: `N${CompassMax.toString()},E${CompassMax.toString()}`, compass: { north: CompassMaxNumber, east: CompassMaxNumber }, forwardOnly: true },
+	{ slug: `N${CompassMax.toString()},W${CompassMax.toString()}`, compass: { north: CompassMaxNumber, west: CompassMaxNumber }, forwardOnly: true },
+	{ slug: `S${CompassMax.toString()},E${CompassMax.toString()}`, compass: { south: CompassMaxNumber, east: CompassMaxNumber }, forwardOnly: true },
+	{ slug: `S${CompassMax.toString()},W${CompassMax.toString()}`, compass: { south: CompassMaxNumber, west: CompassMaxNumber }, forwardOnly: true },
 	// zero padding is ok
-	{ slug: 'N01,E01', compass: { north: 1, east: 1 } },
-	{ slug: 'N01,W01', compass: { north: 1, west: 1 } },
-	{ slug: 'S01,E01', compass: { south: 1, east: 1 } },
-	{ slug: 'S01,W01', compass: { south: 1, west: 1 } },
+	{ slug: 'N01,E01', compass: { north: 1, east: 1 }, forwardOnly: true },
+	{ slug: 'N01,W01', compass: { north: 1, west: 1 }, forwardOnly: true },
+	{ slug: 'S01,E01', compass: { south: 1, east: 1 }, forwardOnly: true },
+	{ slug: 'S01,W01', compass: { south: 1, west: 1 }, forwardOnly: true },
 ]
 
-const _validateSlug = (slug: string, pair: TestPair) => {
+const _validateSlug = (pair: TestPair, separator: SlugSeparator) => {
+	const slug = pair.slug.replace(',', separator ?? '')
 	expect(validateSlug(slug), `Slug [${slug}] is not valid`).toBe(true)
 	// convert to Compass
 	const asCompass = slugToCompass(slug)
@@ -83,6 +90,13 @@ const _validateSlug = (slug: string, pair: TestPair) => {
 	const expectedCoord = compassToCoord(pair.compass)
 	expect(asCoord, `Slug [${slug}] coord [${asCoord}] should not be zero`).not.toBe(0n)
 	expect(asCoord, `Slug [${slug}] coord [${asCoord}] is not [${expectedCoord}]`).toBe(expectedCoord)
+	// backward conversion
+	if (!pair.forwardOnly) {
+		const slugFromCompass = compassToSlug(pair.compass, separator)
+		expect(slugFromCompass, `Compass [${JSON.stringify(pair.compass)}] slug is not [${slug}]`).toBe(slug.toUpperCase())
+		const slugFromCoord = coordToSlug(compassToCoord(pair.compass), separator)
+		expect(slugFromCoord, `coord [${slugFromCoord}] slug is not [${slug}]`).toBe(slug.toUpperCase())
+	}
 }
 
 const _invalidateSlug = (slug: string) => {
@@ -107,14 +121,10 @@ describe('* slug', () => {
 			} else {
 				// Valid slugs
 				expect(validateCompass(compass)).toBe(true)
-				_validateSlug(slug, pair)
-				// validate lower case
-				_validateSlug(slug.toLowerCase(), pair)
-				// validate all separators
+				// validate using all separators
 				slugSeparators.forEach((s) => {
-					if (s != null) {
-						_validateSlug(slug.replace(',', s), pair)
-					}
+					_validateSlug(pair, s)
+					_validateSlug({ ...pair, slug: slug.toLowerCase(), forwardOnly: true }, s)
 				})
 				// invalidate bad separators
 				_invalidateSlug(slug.replace(',', 'x'))
