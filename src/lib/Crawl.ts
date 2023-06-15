@@ -130,6 +130,23 @@ export const CompassOne = {
 	South: 1n,
 }
 
+export const offsetCoord = (coord: bigint, dir: Dir): bigint => {
+	if (dir == Dir.North) {
+		if ((coord & Mask.South) > CompassOne.South) return coord - CompassOne.South // --South
+		if ((coord & Mask.North) != Mask.North) return (coord & Mask.InvSouth) + CompassOne.North // ++North
+	} else if (dir == Dir.East) {
+		if ((coord & Mask.West) > CompassOne.West) return coord - CompassOne.West // --West
+		if ((coord & Mask.East) != Mask.East) return (coord & Mask.InvWest) + CompassOne.East // ++East
+	} else if (dir == Dir.West) {
+		if ((coord & Mask.East) > CompassOne.East) return coord - CompassOne.East // --East
+		if ((coord & Mask.West) != Mask.West) return (coord & Mask.InvEast) + CompassOne.West // ++West
+	} else if (dir == Dir.South) {
+		if ((coord & Mask.North) > CompassOne.North) return coord - CompassOne.North // --North
+		if ((coord & Mask.South) != Mask.South) return (coord & Mask.InvNorth) + CompassOne.South // ++South
+	}
+	return coord
+}
+
 
 
 //-----------------------------------
